@@ -8,6 +8,7 @@ TODO:
 - Check that everything is connected.
 
 ![PCB Preview](./gallery/main/main-top.png)
+![PCB Preview](./gallery/main/main-bottom.png)
 
 <span>
   <img src="https://img.shields.io/github/last-commit/Wesztman/brain?style=flat-square">
