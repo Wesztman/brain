@@ -29,6 +29,8 @@ TODO: Add text on why this exists.
 - [x] Original pinky column lowered 2mm.
 - [x] A new pinky column added with two buttons, also 2mm offset down from its neighbour.
 - [x] One new thumb button added.
+- [ ] Add 3D printed case.
+- [ ] Add travel case.
 
 ## Part list (for both sides)
 #### Required
