@@ -1,4 +1,4 @@
-# Urchin
+# Brain (based on [Urchin by Duckyb](https://github.com/duckyb/urchin))
 
 ![PCB Preview](./gallery/main/main-top.png)
 
