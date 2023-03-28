@@ -51,9 +51,6 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "copper_edge_clearance|127127000|57514218|8ad033a6-1b17-45f9-b58c-8cd62281e838|56483b00-72b1-49bb-a1e4-165b1835ac09",
-        "copper_edge_clearance|127128055|74514221|e7199ee9-e6c6-4ed7-b3ed-e8802f3fe19b|c15bb49a-5fc4-453b-84ad-1e8815dd2af3",
-        "copper_edge_clearance|127129500|40514221|3008cc4c-226a-4cbb-8aca-02905a4371b2|09310d6b-28f5-43bd-82b7-39e34edc09da",
         "copper_edge_clearance|220416793|31545567|fffd78a7-9c16-41a1-8741-9e7d954d885d|dd1b3273-259f-44e9-9384-2b358d4565c6"
       ],
       "meta": {
