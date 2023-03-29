@@ -44,9 +44,9 @@ TODO: Update
 - 2× nice!nano
 - 2× Lipo battery (301230)
 - 48× mill-max machined pins
-- 2× Pair of female headers
+- 2× Pair of female mill-max headers (raised ones to fit battery)
 #### Optional
-- 2× nice!view
+- 2× nice!view (needs higher sockets to get level above raised mill-max sockets)
 - 2× Reset switch (B3U-1000P(M))
 - 2× Power switch (MSK 12C02)
 - 10× adhesive silicone feet
