@@ -6,6 +6,7 @@ TODO:
 - Make pour outline nicer.
 - Make new tracks nicer.
 - Check that everything is connected.
+- Add standoff mounting holes for acrylic or 3d printed nice!view cover, can we use Cornes oled acrylic cover?
 
 ![PCB Preview](./gallery/main/main-top.png)
 ![PCB Preview](./gallery/main/main-bottom.png)
