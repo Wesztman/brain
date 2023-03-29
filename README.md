@@ -6,7 +6,7 @@ TODO:
 - Make pour outline nicer.
 - Make new tracks nicer.
 - Check that everything is connected.
-- Add standoff mounting holes for acrylic or 3d printed nice!view cover, can we use Cornes oled acrylic cover?
+- Add standoff mounting holes for acrylic or 3d printed nice!view cover, can we use same mounting pattern Cornes oled acrylic cover? Nice!view is 10.5mm high from pcb top side.
 
 ![PCB Preview](./gallery/main/main-top.png)
 ![PCB Preview](./gallery/main/main-bottom.png)
