@@ -1,13 +1,14 @@
 # Brain (based on [Urchin by Duckyb](https://github.com/duckyb/urchin))
 
-TODO:
-- Remove top pads and unused tracks.
-- Reorder labels.
-- Make pour outline nicer.
-- Make new tracks nicer.
+TODO
+Prio 1
 - Check that everything is connected.
+- Reorder labels.
 - Add standoff mounting holes for acrylic or 3d printed nice!view cover, can we use same mounting pattern Cornes oled acrylic cover? Nice!view is 10.5mm high from pcb top side.
-- Bring pad which is outside edge cut in by extending edge cut, do the same on other board.
+Prio 2
+- Remove top pads and unused tracks.
+- Make new tracks nicer.
+- Bring pad which is outside edge cut in by extending edge cut, do the same on other board
 
 ![PCB Preview](./gallery/main/main-top.png)
 ![PCB Preview](./gallery/main/main-bottom.png)
