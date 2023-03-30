@@ -4,11 +4,7 @@ TODO
 Prio 1
 - Check that everything is connected.
 - Reorder labels.
-- Add standoff mounting holes for acrylic or 3d printed nice!view cover, can we use same mounting pattern Cornes oled acrylic cover? Nice!view is 10.5mm high from pcb top side.
-Prio 2
-- Remove top pads and unused tracks.
-- Make new tracks nicer.
-- Bring pad which is outside edge cut in by extending edge cut, do the same on other board
+- Move repo to real fork of urchin repo.
 
 ![PCB Preview](./gallery/main/main-top.png)
 ![PCB Preview](./gallery/main/main-bottom.png)
