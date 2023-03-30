@@ -1,13 +1,17 @@
 # Brain (based on [Urchin by Duckyb](https://github.com/duckyb/urchin))
 
-TODO:
-- Remove top pads and unused tracks.
-- Reorder labels.
-- Make pour outline nicer.
-- Make new tracks nicer.
+TODO
+Prio 1
 - Check that everything is connected.
+- Reorder labels.
+- Add standoff mounting holes for acrylic or 3d printed nice!view cover, can we use same mounting pattern Cornes oled acrylic cover? Nice!view is 10.5mm high from pcb top side.
+Prio 2
+- Remove top pads and unused tracks.
+- Make new tracks nicer.
+- Bring pad which is outside edge cut in by extending edge cut, do the same on other board
 
 ![PCB Preview](./gallery/main/main-top.png)
+![PCB Preview](./gallery/main/main-bottom.png)
 
 <span>
   <img src="https://img.shields.io/github/last-commit/Wesztman/brain?style=flat-square">
@@ -43,9 +47,9 @@ TODO: Update
 - 2× nice!nano
 - 2× Lipo battery (301230)
 - 48× mill-max machined pins
-- 2× Pair of female headers
+- 2× Pair of female mill-max headers (raised ones to fit battery, https://www.digikey.se/sv/products/detail/mill-max-manufacturing-corp/310-43-112-41-001000/1212186)
 #### Optional
-- 2× nice!view
+- 2× nice!view (needs higher sockets to get level above raised mill-max sockets, TODO add exact ones)
 - 2× Reset switch (B3U-1000P(M))
 - 2× Power switch (MSK 12C02)
 - 10× adhesive silicone feet
