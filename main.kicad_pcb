@@ -131,7 +131,7 @@
   (net 53 "+3V3")
   (net 54 "BT+")
   (net 55 "Net-(D40-A)")
-  (net 56 "unconnected-(SW_POWER0-A-Pad1)")
+  (net 56 "unconnected-(SW_POWER2-A-Pad1)")
   (net 57 "unconnected-(SW_POWER1-A-Pad1)")
   (net 58 "unconnected-(U1-RX1{slash}P0.08-Pad2)")
   (net 59 "unconnected-(U1-P0.22-Pad7)")
@@ -175,7 +175,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/9fb93c4d-c11e-45d9-b29e-3d797de14154")
-    (fp_text reference "D19" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D22" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 63378517-68a9-46d0-84d3-1b890bc9c948)
     )
@@ -280,9 +280,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 66 "R_ROW0") (pinfunction "K") (pintype "passive") (tstamp c40f7dfb-f583-40f2-baa0-980b87d303cd))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 23 "Net-(D19-A)") (pinfunction "A") (pintype "passive") (tstamp 5739220d-21e4-49a0-b83a-37ad633a6c63))
+      (net 26 "Net-(D22-A)") (pinfunction "A") (pintype "passive") (tstamp 5739220d-21e4-49a0-b83a-37ad633a6c63))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 23 "Net-(D19-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 26 "Net-(D22-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -295,7 +295,7 @@
           (width 0.1) (fill yes))
       ) (tstamp fde9f7e4-e0a4-4604-8bfb-5601c6888eb5))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 23 "Net-(D19-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 26 "Net-(D22-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -324,7 +324,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/01a0ccba-a709-41b4-8fc5-4c4917247315")
-    (fp_text reference "D21" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D24" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp d9c87e2e-005e-4560-85d2-60efa82dce0d)
     )
@@ -429,9 +429,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 66 "R_ROW0") (pinfunction "K") (pintype "passive") (tstamp 431c38ec-0924-405b-a23c-49600ba9f143))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 25 "Net-(D21-A)") (pinfunction "A") (pintype "passive") (tstamp 62ec3111-b6e9-4117-a488-963550f580e9))
+      (net 28 "Net-(D24-A)") (pinfunction "A") (pintype "passive") (tstamp 62ec3111-b6e9-4117-a488-963550f580e9))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 25 "Net-(D21-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 28 "Net-(D24-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -444,7 +444,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 4c9a6160-2c30-4011-a091-49f343811832))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 25 "Net-(D21-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 28 "Net-(D24-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -474,7 +474,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/74f67945-5d10-42d7-aa8a-22ea30c6a090")
     (attr through_hole)
-    (fp_text reference "BatGND1" (at 0 1.143) (layer "User.1") hide
+    (fp_text reference "BatGND2" (at 0 1.143) (layer "User.1") hide
         (effects (font (size 0.8128 0.8128) (thickness 0.15)))
       (tstamp d36dcea8-458a-40c7-b5c5-93266911dc3e)
     )
@@ -534,7 +534,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/f4d8db17-bfd6-482a-ac2c-3271223019a6")
-    (fp_text reference "D26" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D29" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp b5b50f67-6eb0-455f-95b4-ee5f3d2117ca)
     )
@@ -639,9 +639,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 67 "R_ROW1") (pinfunction "K") (pintype "passive") (tstamp 429cd73d-7700-4826-9770-4901853dc181))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 30 "Net-(D26-A)") (pinfunction "A") (pintype "passive") (tstamp e105e7e8-191f-4d46-ae18-09b81f7bcad0))
+      (net 33 "Net-(D29-A)") (pinfunction "A") (pintype "passive") (tstamp e105e7e8-191f-4d46-ae18-09b81f7bcad0))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 30 "Net-(D26-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 33 "Net-(D29-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -654,7 +654,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 175b038b-4278-49e5-98d2-fce72c956c94))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 30 "Net-(D26-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 33 "Net-(D29-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -682,7 +682,7 @@
     (property "Sheetname" "")
     (path "/c0f78318-c6dd-40a5-b853-84809158fe66")
     (attr smd)
-    (fp_text reference "SW37" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW40" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9260bd06-fdfd-4409-be86-14a2b8335999)
     )
@@ -813,7 +813,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 74 "R_COL4") (pinfunction "COL") (pintype "passive") (tstamp 2abc28e5-3981-4f4c-956e-a9e1cbae83fb))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 50 "Net-(D37-A)") (pinfunction "ROW") (pintype "passive") (tstamp 7f36fcf0-15ff-4bef-a2b5-25348b9b75cd))
+      (net 55 "Net-(D40-A)") (pinfunction "ROW") (pintype "passive") (tstamp 7f36fcf0-15ff-4bef-a2b5-25348b9b75cd))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -830,7 +830,7 @@
     (property "Sheetname" "")
     (path "/18e4b3cc-a07e-4735-834b-3be44589dc07")
     (attr smd)
-    (fp_text reference "SW19" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW22" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5d3d4098-4133-4c12-aca0-1a150d3ba9c0)
     )
@@ -961,7 +961,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 71 "R_COL1") (pinfunction "COL") (pintype "passive") (tstamp 64611d41-c5eb-4c9e-8ade-2bf17ce23444))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 23 "Net-(D19-A)") (pinfunction "ROW") (pintype "passive") (tstamp a42351fc-2dc6-40d2-ac77-225855f032e3))
+      (net 26 "Net-(D22-A)") (pinfunction "ROW") (pintype "passive") (tstamp a42351fc-2dc6-40d2-ac77-225855f032e3))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -979,7 +979,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/1ace4be1-d5ea-4a1d-a46f-39384d7410c2")
-    (fp_text reference "D33" (at 0 1.397 120) (layer "F.Fab") hide
+    (fp_text reference "D36" (at 0 1.397 120) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp f7a2ce3b-fe69-4160-9030-0a50d37639a9)
     )
@@ -1084,9 +1084,9 @@
     (pad "1" thru_hole circle (at -0.6746 0 30) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 69 "R_ROW3") (pinfunction "K") (pintype "passive") (tstamp 9ade8402-33d9-455b-a66c-b82448b08c19))
     (pad "2" thru_hole circle (at 0.6746 0.0004 210) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 37 "Net-(D33-A)") (pinfunction "A") (pintype "passive") (tstamp fd7c93b5-37e1-4ac9-9fb9-d0b16f34c2ae))
+      (net 49 "Net-(D36-A)") (pinfunction "A") (pintype "passive") (tstamp fd7c93b5-37e1-4ac9-9fb9-d0b16f34c2ae))
     (pad "2" smd custom (at 1.775 0 120) (size 1.3 0.95) (layers "F.Cu")
-      (net 37 "Net-(D33-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 49 "Net-(D36-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -1099,7 +1099,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 884be6dd-5541-4c56-b2ea-364ecdece56c))
     (pad "2" smd custom (at 1.775 0 120) (size 1.3 0.95) (layers "B.Cu")
-      (net 37 "Net-(D33-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 49 "Net-(D36-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -1127,7 +1127,7 @@
     (property "Sheetname" "")
     (path "/a2f7316f-a457-4da4-ad03-528b4f1a55b5")
     (attr smd)
-    (fp_text reference "SW27" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW30" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c3b78d80-6e4e-407c-bddf-073be93b6348)
     )
@@ -1258,7 +1258,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 74 "R_COL4") (pinfunction "COL") (pintype "passive") (tstamp f760a29e-0cdd-4f95-adc8-3894d8257a2e))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 31 "Net-(D27-A)") (pinfunction "ROW") (pintype "passive") (tstamp 56483b00-72b1-49bb-a1e4-165b1835ac09))
+      (net 34 "Net-(D30-A)") (pinfunction "ROW") (pintype "passive") (tstamp 56483b00-72b1-49bb-a1e4-165b1835ac09))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1275,7 +1275,7 @@
     (property "Sheetname" "")
     (path "/208179af-b34b-4f46-bc58-bebd09a977b0")
     (attr smd)
-    (fp_text reference "SW25" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW28" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0a46ca89-0721-49cf-961f-70a8a166709c)
     )
@@ -1406,7 +1406,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 72 "R_COL2") (pinfunction "COL") (pintype "passive") (tstamp 39870f45-27fe-47d2-8866-e210272138c5))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 29 "Net-(D25-A)") (pinfunction "ROW") (pintype "passive") (tstamp fbf43582-a785-43ae-9168-8754d5d0af29))
+      (net 32 "Net-(D28-A)") (pinfunction "ROW") (pintype "passive") (tstamp fbf43582-a785-43ae-9168-8754d5d0af29))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1424,7 +1424,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/a39db02b-452e-4720-baa2-5095f37fa2b2")
-    (fp_text reference "D24" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D27" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp f04a8625-8337-4e86-a3e3-d548ee50617c)
     )
@@ -1529,9 +1529,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 67 "R_ROW1") (pinfunction "K") (pintype "passive") (tstamp 6c17e712-9702-454c-8fac-0700791e2e9e))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 28 "Net-(D24-A)") (pinfunction "A") (pintype "passive") (tstamp 076c2ba3-fde6-4eab-80c6-5cc17c108343))
+      (net 31 "Net-(D27-A)") (pinfunction "A") (pintype "passive") (tstamp 076c2ba3-fde6-4eab-80c6-5cc17c108343))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 28 "Net-(D24-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 31 "Net-(D27-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -1544,7 +1544,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 0b0a7725-375c-4d68-b06a-194606dd6856))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 28 "Net-(D24-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 31 "Net-(D27-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -1573,7 +1573,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/285ec287-6a5a-4ff8-89fb-1547a1671b52")
-    (fp_text reference "D23" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D26" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp db54e6ce-5b6e-42ea-a302-f6a0412db7c8)
     )
@@ -1678,9 +1678,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 67 "R_ROW1") (pinfunction "K") (pintype "passive") (tstamp 579b92c4-dbe5-4d23-b2cd-2f565f16f906))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 27 "Net-(D23-A)") (pinfunction "A") (pintype "passive") (tstamp 613395d6-f9ad-498b-8288-4e157d81392b))
+      (net 30 "Net-(D26-A)") (pinfunction "A") (pintype "passive") (tstamp 613395d6-f9ad-498b-8288-4e157d81392b))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 27 "Net-(D23-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 30 "Net-(D26-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -1693,7 +1693,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 9f4d7aee-8df8-4a2f-a8ba-15337ef0caa6))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 27 "Net-(D23-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 30 "Net-(D26-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -1736,7 +1736,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/3da3e336-00a6-4606-94d0-b6817d6df5d7")
-    (fp_text reference "D18" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D21" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp c0633c3d-7a9d-4ad1-af2a-6a4fdeaf3124)
     )
@@ -1841,9 +1841,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 66 "R_ROW0") (pinfunction "K") (pintype "passive") (tstamp 8c7f9fd1-f6f0-48f9-92bd-25edfef3ec09))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 22 "Net-(D18-A)") (pinfunction "A") (pintype "passive") (tstamp f8387a5a-d0d5-46cc-8a5c-6d99b8f9c92a))
+      (net 25 "Net-(D21-A)") (pinfunction "A") (pintype "passive") (tstamp f8387a5a-d0d5-46cc-8a5c-6d99b8f9c92a))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 22 "Net-(D18-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 25 "Net-(D21-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -1856,7 +1856,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 961474c1-6522-4783-9b1d-8b2b7e9bce29))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 22 "Net-(D18-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 25 "Net-(D21-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -1885,7 +1885,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/3246ce4b-8ea0-42bb-9287-7ec028fce18e")
-    (fp_text reference "D36" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D39" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 8319bfb9-a887-4f71-b6cc-026aa37478f4)
     )
@@ -1990,9 +1990,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 69 "R_ROW3") (pinfunction "K") (pintype "passive") (tstamp d3ab63c5-bf29-4e8f-a765-f57fd0951ef8))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 49 "Net-(D36-A)") (pinfunction "A") (pintype "passive") (tstamp 48c1f26c-9fe1-41ff-8907-39dc89e31da8))
+      (net 52 "Net-(D39-A)") (pinfunction "A") (pintype "passive") (tstamp 48c1f26c-9fe1-41ff-8907-39dc89e31da8))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 49 "Net-(D36-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 52 "Net-(D39-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -2005,7 +2005,7 @@
           (width 0.1) (fill yes))
       ) (tstamp ff2d3d01-97ae-48c7-857e-391e256c3a5e))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 49 "Net-(D36-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 52 "Net-(D39-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -6208,7 +6208,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/226e2589-e472-46d8-ad4c-1d6bdee6a71c")
-    (fp_text reference "D35" (at 0 1.397 130) (layer "F.Fab") hide
+    (fp_text reference "D38" (at 0 1.397 130) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 3acfd91d-0b40-4f7b-bc58-666c2327c378)
     )
@@ -6313,9 +6313,9 @@
     (pad "1" thru_hole circle (at -0.6746 0 40) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 69 "R_ROW3") (pinfunction "K") (pintype "passive") (tstamp 11d6133b-4e1e-4806-9717-0c8aff5e295c))
     (pad "2" thru_hole circle (at 0.6746 0.0004 220) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 45 "Net-(D35-A)") (pinfunction "A") (pintype "passive") (tstamp 882039e8-9b50-4a21-a311-85a560fb5649))
+      (net 51 "Net-(D38-A)") (pinfunction "A") (pintype "passive") (tstamp 882039e8-9b50-4a21-a311-85a560fb5649))
     (pad "2" smd custom (at 1.775 0 130) (size 1.3 0.95) (layers "F.Cu")
-      (net 45 "Net-(D35-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 51 "Net-(D38-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -6328,7 +6328,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 5dcad0a1-77ae-4f69-b062-a2894c1f9bd0))
     (pad "2" smd custom (at 1.775 0 130) (size 1.3 0.95) (layers "B.Cu")
-      (net 45 "Net-(D35-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 51 "Net-(D38-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -6680,7 +6680,7 @@
     (property "Sheetname" "")
     (path "/58c1c8b8-aca5-4957-8089-d6658d3eb0aa")
     (attr smd)
-    (fp_text reference "SW26" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW29" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f811fd35-06c1-4bce-b48b-781fbef6f486)
     )
@@ -6811,7 +6811,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 73 "R_COL3") (pinfunction "COL") (pintype "passive") (tstamp a445cf95-3e22-4800-81af-2a1700eb2b17))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 30 "Net-(D26-A)") (pinfunction "ROW") (pintype "passive") (tstamp c1a45541-d3ca-4f13-b99c-2949ad2c6700))
+      (net 33 "Net-(D29-A)") (pinfunction "ROW") (pintype "passive") (tstamp c1a45541-d3ca-4f13-b99c-2949ad2c6700))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -6828,7 +6828,7 @@
     (property "Sheetname" "")
     (path "/cf8cc217-c4ca-4f63-b859-2e93aaa75c1a")
     (attr smd)
-    (fp_text reference "SW22" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW25" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 977cb22f-791a-420e-8d13-c9092f1b46d6)
     )
@@ -6959,7 +6959,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 74 "R_COL4") (pinfunction "COL") (pintype "passive") (tstamp fd2a7cf1-7285-497b-badc-d16d90969f0c))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 26 "Net-(D22-A)") (pinfunction "ROW") (pintype "passive") (tstamp 09310d6b-28f5-43bd-82b7-39e34edc09da))
+      (net 29 "Net-(D25-A)") (pinfunction "ROW") (pintype "passive") (tstamp 09310d6b-28f5-43bd-82b7-39e34edc09da))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -7184,7 +7184,7 @@
     (property "Sheetname" "")
     (path "/860f2e65-761c-4c5b-9c09-ebe4167b3afa")
     (attr smd)
-    (fp_text reference "SW31" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW34" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4af5787a-559d-480a-8b55-a4abd3ae1e80)
     )
@@ -7315,7 +7315,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 73 "R_COL3") (pinfunction "COL") (pintype "passive") (tstamp e6a132b3-32fe-46fe-8ab1-b2e5024243d6))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 35 "Net-(D31-A)") (pinfunction "ROW") (pintype "passive") (tstamp 017afdf8-fcb8-4b98-8c97-c45b430a9667))
+      (net 38 "Net-(D34-A)") (pinfunction "ROW") (pintype "passive") (tstamp 017afdf8-fcb8-4b98-8c97-c45b430a9667))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -7332,7 +7332,7 @@
     (property "Sheetname" "")
     (path "/07fe0c5b-184a-48c8-8c1f-111350a3f07e")
     (attr smd)
-    (fp_text reference "SW32" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW35" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fcd77041-6a30-40f9-9dcc-7d42d0d5362f)
     )
@@ -7463,7 +7463,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 74 "R_COL4") (pinfunction "COL") (pintype "passive") (tstamp 97988238-4310-4a3e-ab71-afd644e29f1d))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 36 "Net-(D32-A)") (pinfunction "ROW") (pintype "passive") (tstamp c15bb49a-5fc4-453b-84ad-1e8815dd2af3))
+      (net 45 "Net-(D35-A)") (pinfunction "ROW") (pintype "passive") (tstamp c15bb49a-5fc4-453b-84ad-1e8815dd2af3))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -7669,7 +7669,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/6f2d898c-eba3-4f82-8770-5becf6ffbf26")
-    (fp_text reference "D25" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D28" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 4dee0528-cef3-41e3-b418-00e7225f302f)
     )
@@ -7774,9 +7774,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 67 "R_ROW1") (pinfunction "K") (pintype "passive") (tstamp 6a7fd431-7024-428c-92b7-b34adedd6bab))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 29 "Net-(D25-A)") (pinfunction "A") (pintype "passive") (tstamp 06eca1c7-dd79-40ad-b650-12acfa14c6be))
+      (net 32 "Net-(D28-A)") (pinfunction "A") (pintype "passive") (tstamp 06eca1c7-dd79-40ad-b650-12acfa14c6be))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 29 "Net-(D25-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 32 "Net-(D28-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -7789,7 +7789,7 @@
           (width 0.1) (fill yes))
       ) (tstamp f00cc162-70b9-4bed-ad75-49fb2e0d0ed7))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 29 "Net-(D25-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 32 "Net-(D28-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -7817,7 +7817,7 @@
     (property "Sheetname" "")
     (path "/e396a07d-387f-4371-b417-42d2430acecc")
     (attr smd)
-    (fp_text reference "SW20" (at -3.507393 -8.350934) (layer "User.1")
+    (fp_text reference "SW23" (at -3.507393 -8.350934) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 70dea77b-56f1-4f19-99f9-0a27019f6847)
     )
@@ -7948,7 +7948,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 72 "R_COL2") (pinfunction "COL") (pintype "passive") (tstamp 6f9b4553-e4c3-43e5-8b49-8a4d768bfb9f))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 24 "Net-(D20-A)") (pinfunction "ROW") (pintype "passive") (tstamp 856d09c5-5bfc-478a-84ae-3291b4bab6f3))
+      (net 27 "Net-(D23-A)") (pinfunction "ROW") (pintype "passive") (tstamp 856d09c5-5bfc-478a-84ae-3291b4bab6f3))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -7965,7 +7965,7 @@
     (property "Sheetname" "")
     (path "/9a9c5007-bbec-461f-a5ec-a13859829367")
     (attr smd)
-    (fp_text reference "SW23" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW26" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ce039596-4cfb-4411-aa3b-ab6aa743a03c)
     )
@@ -8096,7 +8096,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 70 "R_COL0") (pinfunction "COL") (pintype "passive") (tstamp 7cbdf183-4924-41fa-903c-4fcb4b6e51be))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 27 "Net-(D23-A)") (pinfunction "ROW") (pintype "passive") (tstamp 3534bfd7-cc71-4e57-a7cc-e7a64407bf4e))
+      (net 30 "Net-(D26-A)") (pinfunction "ROW") (pintype "passive") (tstamp 3534bfd7-cc71-4e57-a7cc-e7a64407bf4e))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -8114,7 +8114,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/c772d37f-a4b0-4690-917c-304b5e565932")
-    (fp_text reference "D22" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D25" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 13d2bdb7-54e7-4347-877e-e47d581fe816)
     )
@@ -8219,9 +8219,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 66 "R_ROW0") (pinfunction "K") (pintype "passive") (tstamp 01bbe4c3-d21a-4393-b05f-94a80a7cf47a))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 26 "Net-(D22-A)") (pinfunction "A") (pintype "passive") (tstamp ed7585fe-5296-43a7-8fa6-b8b2def77460))
+      (net 29 "Net-(D25-A)") (pinfunction "A") (pintype "passive") (tstamp ed7585fe-5296-43a7-8fa6-b8b2def77460))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 26 "Net-(D22-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 29 "Net-(D25-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -8234,7 +8234,7 @@
           (width 0.1) (fill yes))
       ) (tstamp b893a630-e54c-4571-92b4-691988923784))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 26 "Net-(D22-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 29 "Net-(D25-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -8262,7 +8262,7 @@
     (property "Sheetname" "")
     (path "/bb77e868-2200-4518-b4dd-3dc8b60c57af")
     (attr smd)
-    (fp_text reference "SW34" (at 0 -8.999999 15) (layer "User.1")
+    (fp_text reference "SW37" (at 0 -8.999999 15) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ef09cdd0-c0aa-4e8e-aacf-aa82f1484b65)
     )
@@ -8307,9 +8307,9 @@
       (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 82dd549f-8ea0-4136-933d-7ce37ef5d52c))
     (fp_line (start 7 6.5) (end 7 -6.5)
       (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3a2ac64b-577a-40eb-a542-da39865ccbfd))
-    (fp_arc (start -7 -6.5) (mid -6.853554 -6.853553) (end -6.5 -7)
+    (fp_arc (start -7 -6.5) (mid -6.853553 -6.853553) (end -6.5 -7)
       (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 985b88c0-1412-463c-9495-2f6853b8d428))
-    (fp_arc (start -6.5 7) (mid -6.853553 6.853554) (end -7 6.5)
+    (fp_arc (start -6.5 7) (mid -6.853553 6.853553) (end -7 6.5)
       (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp e56a910d-de3c-4ebd-a474-a9d0363cfe5a))
     (fp_arc (start 6.5 -7) (mid 6.853553 -6.853553) (end 7 -6.5)
       (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp a3120381-fed5-4f73-9158-c47a77132ed2))
@@ -8393,7 +8393,7 @@
     (pad "1" smd roundrect (at -3.5 -6 15) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 71 "R_COL1") (pinfunction "COL") (pintype "passive") (tstamp f4187764-9dad-4c97-8ba5-449e9daf2f6b))
     (pad "2" smd roundrect (at 8.5 -3.8 15) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 38 "Net-(D34-A)") (pinfunction "ROW") (pintype "passive") (tstamp 35d19c14-8d68-4e0a-ba0d-f6283c6c79f1))
+      (net 50 "Net-(D37-A)") (pinfunction "ROW") (pintype "passive") (tstamp 35d19c14-8d68-4e0a-ba0d-f6283c6c79f1))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -8411,7 +8411,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/4b83dd6f-4ada-4902-8d51-1b3a952f6065")
-    (fp_text reference "D27" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D30" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 1ec4c95a-0861-40b8-b2a2-7f1440ac756d)
     )
@@ -8516,9 +8516,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 67 "R_ROW1") (pinfunction "K") (pintype "passive") (tstamp f40494d8-dd02-4bcc-8c0e-58d9d93181fd))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 31 "Net-(D27-A)") (pinfunction "A") (pintype "passive") (tstamp bc8c5de4-e80f-40d0-ba94-39f3a3dd4708))
+      (net 34 "Net-(D30-A)") (pinfunction "A") (pintype "passive") (tstamp bc8c5de4-e80f-40d0-ba94-39f3a3dd4708))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 31 "Net-(D27-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 34 "Net-(D30-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -8531,7 +8531,7 @@
           (width 0.1) (fill yes))
       ) (tstamp faae57af-d528-439d-863f-712592e568db))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 31 "Net-(D27-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 34 "Net-(D30-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -8559,7 +8559,7 @@
     (property "Sheetname" "")
     (path "/19fde6f8-4d0c-41bf-ac29-08b1160fcf10")
     (attr smd)
-    (fp_text reference "SW18" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW21" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 19915f3c-3ec0-49c9-ba7f-f644b3094564)
     )
@@ -8690,7 +8690,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 70 "R_COL0") (pinfunction "COL") (pintype "passive") (tstamp 7a93fa50-adc8-48b5-a5fa-b9c401c57240))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 22 "Net-(D18-A)") (pinfunction "ROW") (pintype "passive") (tstamp 48705136-cc58-442b-95cf-09508fc194de))
+      (net 25 "Net-(D21-A)") (pinfunction "ROW") (pintype "passive") (tstamp 48705136-cc58-442b-95cf-09508fc194de))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -8708,7 +8708,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/49b73e23-4773-471c-af34-e881cc2b199a")
-    (fp_text reference "D32" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D35" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 72c14c22-4676-4faf-87ca-285e1fa6eef3)
     )
@@ -8813,9 +8813,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 68 "R_ROW2") (pinfunction "K") (pintype "passive") (tstamp 73345679-0747-48f5-ae92-84937e1abdfc))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 36 "Net-(D32-A)") (pinfunction "A") (pintype "passive") (tstamp 7ea508f3-5696-497a-b413-ce7f8c7b7410))
+      (net 45 "Net-(D35-A)") (pinfunction "A") (pintype "passive") (tstamp 7ea508f3-5696-497a-b413-ce7f8c7b7410))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 36 "Net-(D32-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 45 "Net-(D35-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -8828,7 +8828,7 @@
           (width 0.1) (fill yes))
       ) (tstamp f4d62787-7408-4c60-87a3-c82379d3ba09))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 36 "Net-(D32-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 45 "Net-(D35-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -8857,7 +8857,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/a602d4cf-5cdd-4f95-ba7f-4a02f3c78758")
-    (fp_text reference "D29" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D32" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp de625776-6b6a-4c3f-a901-39f16eb611f6)
     )
@@ -8962,9 +8962,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 68 "R_ROW2") (pinfunction "K") (pintype "passive") (tstamp c9dc5e48-f2ce-4417-a176-af7ac1a2817a))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 33 "Net-(D29-A)") (pinfunction "A") (pintype "passive") (tstamp abdf92f2-c6bf-410a-9f22-eebf4b77dc09))
+      (net 36 "Net-(D32-A)") (pinfunction "A") (pintype "passive") (tstamp abdf92f2-c6bf-410a-9f22-eebf4b77dc09))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 33 "Net-(D29-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 36 "Net-(D32-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -8977,7 +8977,7 @@
           (width 0.1) (fill yes))
       ) (tstamp aaa59bd3-59af-4f4a-baf3-16da7c91f2ba))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 33 "Net-(D29-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 36 "Net-(D32-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -9503,7 +9503,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/ce8b2b09-aa3c-4448-bebd-c6eb604147e8")
-    (fp_text reference "D34" (at 0 1.397 105) (layer "F.Fab") hide
+    (fp_text reference "D37" (at 0 1.397 105) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp cba50cf6-a886-40f9-ace2-15a7004914d0)
     )
@@ -9608,9 +9608,9 @@
     (pad "1" thru_hole circle (at -0.6746 0 15) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 69 "R_ROW3") (pinfunction "K") (pintype "passive") (tstamp a15fc88f-2d5e-456d-9565-24b477cfd572))
     (pad "2" thru_hole circle (at 0.6746 0.0004 195) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 38 "Net-(D34-A)") (pinfunction "A") (pintype "passive") (tstamp abf704fb-417c-4240-8026-194e4471e2ab))
+      (net 50 "Net-(D37-A)") (pinfunction "A") (pintype "passive") (tstamp abf704fb-417c-4240-8026-194e4471e2ab))
     (pad "2" smd custom (at 1.775 0 105) (size 1.3 0.95) (layers "F.Cu")
-      (net 38 "Net-(D34-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 50 "Net-(D37-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -9623,7 +9623,7 @@
           (width 0.1) (fill yes))
       ) (tstamp a147a23c-c24b-4cd7-b7b8-d3261a50796b))
     (pad "2" smd custom (at 1.775 0 105) (size 1.3 0.95) (layers "B.Cu")
-      (net 38 "Net-(D34-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 50 "Net-(D37-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -9651,7 +9651,7 @@
     (property "Sheetname" "")
     (path "/2c6b9a46-7a3a-4775-9585-db0373dcf04c")
     (attr smd)
-    (fp_text reference "SW29" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW32" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5414a3ff-0c5c-4c0b-9cde-a056f7368cbd)
     )
@@ -9782,7 +9782,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 71 "R_COL1") (pinfunction "COL") (pintype "passive") (tstamp d3e66b13-107b-41a4-a5e6-836f27d47728))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 33 "Net-(D29-A)") (pinfunction "ROW") (pintype "passive") (tstamp 47ded0ca-0c6d-4f3c-a563-4c54a6223f91))
+      (net 36 "Net-(D32-A)") (pinfunction "ROW") (pintype "passive") (tstamp 47ded0ca-0c6d-4f3c-a563-4c54a6223f91))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -10111,7 +10111,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/48b43820-e5ab-457f-b011-79640d2dfa70")
-    (fp_text reference "D20" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D23" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 11a23d76-7620-4c9c-b6c0-623627f87e2c)
     )
@@ -10216,9 +10216,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 66 "R_ROW0") (pinfunction "K") (pintype "passive") (tstamp e3c09691-0e8e-4bca-952b-9142b97b52db))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 24 "Net-(D20-A)") (pinfunction "A") (pintype "passive") (tstamp 76a7c0b1-5d49-4b5f-b3c7-ca742a20b7f6))
+      (net 27 "Net-(D23-A)") (pinfunction "A") (pintype "passive") (tstamp 76a7c0b1-5d49-4b5f-b3c7-ca742a20b7f6))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 24 "Net-(D20-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 27 "Net-(D23-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10231,7 +10231,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 273f6e23-8c99-446d-b1f3-cf41667a4f99))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 24 "Net-(D20-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 27 "Net-(D23-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10260,7 +10260,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/6b1479d0-6590-4f5f-b1be-1d4334520442")
-    (fp_text reference "D30" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D33" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp b13d7034-69cb-4f0f-b35e-326e3613e0f4)
     )
@@ -10365,9 +10365,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 68 "R_ROW2") (pinfunction "K") (pintype "passive") (tstamp 6f333099-f88c-4148-8189-cf54b25b8a20))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 34 "Net-(D30-A)") (pinfunction "A") (pintype "passive") (tstamp 024e2821-d8da-45c3-a120-fb2820c67bd8))
+      (net 37 "Net-(D33-A)") (pinfunction "A") (pintype "passive") (tstamp 024e2821-d8da-45c3-a120-fb2820c67bd8))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 34 "Net-(D30-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 37 "Net-(D33-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10380,7 +10380,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 13200273-c571-4da4-b81e-e2b4c2f35a8d))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 34 "Net-(D30-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 37 "Net-(D33-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10408,7 +10408,7 @@
     (property "Sheetname" "")
     (path "/f66d29e2-13a5-4439-b8db-3205ac4b69da")
     (attr smd)
-    (fp_text reference "SW36" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW39" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp a6811004-4fa3-4643-b4a7-4c2a494a7f45)
     )
@@ -10539,7 +10539,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 73 "R_COL3") (pinfunction "COL") (pintype "passive") (tstamp 92d15021-b2e9-473a-b03f-d982764b59cc))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 49 "Net-(D36-A)") (pinfunction "ROW") (pintype "passive") (tstamp 2c9c5428-4034-453f-8b42-1ee2ecfcaaa5))
+      (net 52 "Net-(D39-A)") (pinfunction "ROW") (pintype "passive") (tstamp 2c9c5428-4034-453f-8b42-1ee2ecfcaaa5))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -10639,7 +10639,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/734d44ca-2717-42db-baa0-fe6c4d5ba540")
-    (fp_text reference "D28" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D31" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 3098b163-2bbb-45b9-8559-cfc13925d4ee)
     )
@@ -10744,9 +10744,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 68 "R_ROW2") (pinfunction "K") (pintype "passive") (tstamp 923b3ad3-9e8a-4b9b-ac4a-8c85e4890ca7))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 32 "Net-(D28-A)") (pinfunction "A") (pintype "passive") (tstamp 806a2d73-4f53-4ee1-8550-b7597c4643a0))
+      (net 35 "Net-(D31-A)") (pinfunction "A") (pintype "passive") (tstamp 806a2d73-4f53-4ee1-8550-b7597c4643a0))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 32 "Net-(D28-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 35 "Net-(D31-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10759,7 +10759,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 716562da-d435-4316-8a30-95ac6109169e))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 32 "Net-(D28-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 35 "Net-(D31-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -10787,7 +10787,7 @@
     (property "Sheetname" "")
     (path "/c8f0481b-2497-49c1-acce-08695be4b922")
     (attr smd)
-    (fp_text reference "SW21" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW24" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 609c25cb-8bc5-498e-939a-e7f061d3f5b6)
     )
@@ -10918,7 +10918,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 73 "R_COL3") (pinfunction "COL") (pintype "passive") (tstamp d932482e-fb94-420e-bed8-fd9db9bc3dbf))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 25 "Net-(D21-A)") (pinfunction "ROW") (pintype "passive") (tstamp 8641b432-b3bc-47be-ae01-1e9379d97612))
+      (net 28 "Net-(D24-A)") (pinfunction "ROW") (pintype "passive") (tstamp 8641b432-b3bc-47be-ae01-1e9379d97612))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -10936,7 +10936,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/eced4df9-5573-4804-bf0e-11f01367e451")
-    (fp_text reference "D31" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D34" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 7f77f44a-6bfb-4e5e-a836-0a1178a5ebe5)
     )
@@ -11041,9 +11041,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 68 "R_ROW2") (pinfunction "K") (pintype "passive") (tstamp 469c86fb-162e-4ada-85d5-120a96a91df6))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 35 "Net-(D31-A)") (pinfunction "A") (pintype "passive") (tstamp cd7b4ce9-91fd-450d-81df-31a29792af8b))
+      (net 38 "Net-(D34-A)") (pinfunction "A") (pintype "passive") (tstamp cd7b4ce9-91fd-450d-81df-31a29792af8b))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 35 "Net-(D31-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 38 "Net-(D34-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11056,7 +11056,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 4236118a-015c-4964-aabb-ced7e60ba3e3))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 35 "Net-(D31-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 38 "Net-(D34-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -11084,7 +11084,7 @@
     (property "Sheetname" "")
     (path "/17e5ad38-5c5b-474c-acb9-9da00cfd2b15")
     (attr smd)
-    (fp_text reference "SW33" (at 0 -9 30) (layer "User.1")
+    (fp_text reference "SW36" (at 0 -9 30) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7c05c6c8-44fc-4559-89c7-1aa46cd414d1)
     )
@@ -11215,7 +11215,7 @@
     (pad "1" smd roundrect (at -3.5 -6 30) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 70 "R_COL0") (pinfunction "COL") (pintype "passive") (tstamp a099ac8d-8f55-4b6e-8715-4d8c9aa993bc))
     (pad "2" smd roundrect (at 8.5 -3.8 30) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 37 "Net-(D33-A)") (pinfunction "ROW") (pintype "passive") (tstamp f10f06cd-1323-4dd9-b972-2c71ebb54f86))
+      (net 49 "Net-(D36-A)") (pinfunction "ROW") (pintype "passive") (tstamp f10f06cd-1323-4dd9-b972-2c71ebb54f86))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -11232,7 +11232,7 @@
     (property "Sheetname" "")
     (path "/50f13fff-8dc2-4888-a26d-969c5307530b")
     (attr smd)
-    (fp_text reference "SW24" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW27" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b9027fbf-2a64-4e68-890e-672134cb75c5)
     )
@@ -11363,7 +11363,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 71 "R_COL1") (pinfunction "COL") (pintype "passive") (tstamp 54f00410-8c3d-4dfc-94ca-b72f2a6e88a7))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 28 "Net-(D24-A)") (pinfunction "ROW") (pintype "passive") (tstamp 8f562b58-b4fb-4536-8cc5-cf573704746a))
+      (net 31 "Net-(D27-A)") (pinfunction "ROW") (pintype "passive") (tstamp 8f562b58-b4fb-4536-8cc5-cf573704746a))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -11625,7 +11625,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/c601c4d8-ddc1-4d76-945a-d21dc79ce24d")
     (attr through_hole)
-    (fp_text reference "Bat+1" (at 0 1.143) (layer "User.1") hide
+    (fp_text reference "Bat+2" (at 0 1.143) (layer "User.1") hide
         (effects (font (size 0.8128 0.8128) (thickness 0.15)))
       (tstamp f97c44b9-2658-4943-8ffc-fca5867f5429)
     )
@@ -11694,7 +11694,7 @@
     (property "Sheetname" "")
     (path "/42c6cc29-f666-4052-bee9-bdc3de29da13")
     (attr smd)
-    (fp_text reference "SW30" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW33" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d87b9980-f9fc-4135-875a-a98c838d1eb4)
     )
@@ -11825,7 +11825,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 72 "R_COL2") (pinfunction "COL") (pintype "passive") (tstamp 4f0afd0d-f429-46ad-a902-8a8fa2d8a2b2))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 34 "Net-(D30-A)") (pinfunction "ROW") (pintype "passive") (tstamp 29029966-375a-4b3f-b53d-217ba52d8447))
+      (net 37 "Net-(D33-A)") (pinfunction "ROW") (pintype "passive") (tstamp 29029966-375a-4b3f-b53d-217ba52d8447))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -12040,7 +12040,7 @@
     (property "ki_keywords" "switch single-pole double-throw spdt ON-ON")
     (path "/527e5467-04a2-48e0-afae-f95895b2f459")
     (attr smd)
-    (fp_text reference "SW_POWER0" (at 0 -0.889) (layer "F.SilkS") hide
+    (fp_text reference "SW_POWER1" (at 0 -0.889) (layer "F.SilkS") hide
         (effects (font (size 0.6 0.6) (thickness 0.12)))
       (tstamp 50ae66a1-dc6c-4a3b-a24b-10c57258daf2)
     )
@@ -12075,7 +12075,7 @@
     (pad "0" smd rect (at 3.7 -1.1 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9e678190-df2b-4bbb-8983-ba2023e37a21))
     (pad "0" smd rect (at 3.7 1.1 180) (size 0.9 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b7d4de31-b100-4ed8-80ed-d9e01f372a6e))
     (pad "1" smd rect (at 2.25 2.075 180) (size 0.9 1.25) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 56 "unconnected-(SW_POWER0-A-Pad1)") (pinfunction "A") (pintype "passive+no_connect") (tstamp 3ea8134d-a22f-4de1-bf57-e84637b75885))
+      (net 57 "unconnected-(SW_POWER1-A-Pad1)") (pinfunction "A") (pintype "passive+no_connect") (tstamp 3ea8134d-a22f-4de1-bf57-e84637b75885))
     (pad "2" smd rect (at -0.75 2.075 180) (size 0.9 1.25) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 54 "BT+") (pinfunction "B") (pintype "passive") (tstamp 3c04ec2f-8a60-444b-965e-eb5481301d65))
     (pad "3" smd rect (at -2.25 2.075 180) (size 0.9 1.25) (layers "F.Cu" "F.Paste" "F.Mask")
@@ -12091,7 +12091,7 @@
     (property "Sheetname" "")
     (path "/f3c6ade4-09cd-446e-a170-0caec5b1ef71")
     (attr smd)
-    (fp_text reference "SW28" (at 0 -9) (layer "User.1")
+    (fp_text reference "SW31" (at 0 -9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 812dcf80-b392-4b1d-b04c-defdc5912535)
     )
@@ -12222,7 +12222,7 @@
     (pad "1" smd roundrect (at -3.5 -6) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 70 "R_COL0") (pinfunction "COL") (pintype "passive") (tstamp 73398361-a7ed-4e6d-8c33-613ca5211d92))
     (pad "2" smd roundrect (at 8.5 -3.8) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 32 "Net-(D28-A)") (pinfunction "ROW") (pintype "passive") (tstamp 7d957504-e023-4f9e-82ef-1811d1be0c47))
+      (net 35 "Net-(D31-A)") (pinfunction "ROW") (pintype "passive") (tstamp 7d957504-e023-4f9e-82ef-1811d1be0c47))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -12469,7 +12469,7 @@
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/6cd04342-960f-4f76-b976-90eb852725e1")
     (attr smd)
-    (fp_text reference "RSW1" (at 0 2.55 78) (layer "F.SilkS") hide
+    (fp_text reference "RSW2" (at 0 2.55 78) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 60fbf776-d4c7-4323-b83a-6414f73f315d)
     )
@@ -12535,7 +12535,7 @@
     (property "Sheetname" "")
     (path "/8565124a-7163-4ced-8b14-240736be31d9")
     (attr smd)
-    (fp_text reference "SW35" (at 0 -9 40) (layer "User.1")
+    (fp_text reference "SW38" (at 0 -9 40) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6fa37059-4189-4abc-9175-e9f1e1d99a71)
     )
@@ -12666,7 +12666,7 @@
     (pad "1" smd roundrect (at -3.5 -6 40) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
       (net 72 "R_COL2") (pinfunction "COL") (pintype "passive") (tstamp 2c67d98c-fa30-4bbc-9144-afddfcafd2e2))
     (pad "2" smd roundrect (at 8.5 -3.8 40) (size 2.55 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1)
-      (net 45 "Net-(D35-A)") (pinfunction "ROW") (pintype "passive") (tstamp 3087f882-92d8-4c7a-b076-466ea9558e8f))
+      (net 51 "Net-(D38-A)") (pinfunction "ROW") (pintype "passive") (tstamp 3087f882-92d8-4c7a-b076-466ea9558e8f))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -12684,7 +12684,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/2b165d9e-8ff7-403b-ba01-0ad1cb57a226")
-    (fp_text reference "D37" (at 0 1.397 90) (layer "F.Fab") hide
+    (fp_text reference "D40" (at 0 1.397 90) (layer "F.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)))
       (tstamp 04471671-aece-4001-8236-e89ce28e50a5)
     )
@@ -12789,9 +12789,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 69 "R_ROW3") (pinfunction "K") (pintype "passive") (tstamp 1efde293-82dd-4d61-8a6d-bee79c8a97e3))
     (pad "2" thru_hole circle (at 0.6746 0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 50 "Net-(D37-A)") (pinfunction "A") (pintype "passive") (tstamp 08216a0e-aeea-4569-8335-247a3befe729))
+      (net 55 "Net-(D40-A)") (pinfunction "A") (pintype "passive") (tstamp 08216a0e-aeea-4569-8335-247a3befe729))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "F.Cu")
-      (net 50 "Net-(D37-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 55 "Net-(D40-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12804,7 +12804,7 @@
           (width 0.1) (fill yes))
       ) (tstamp c28db140-6a49-4768-b2e1-dccab8ddae3c))
     (pad "2" smd custom (at 1.775 0 90) (size 1.3 0.95) (layers "B.Cu")
-      (net 50 "Net-(D37-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 55 "Net-(D40-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -12832,7 +12832,7 @@
     (property "Sheetname" "")
     (path "/05ae7b02-d7e4-4aca-9fc7-48da9bfc2be7")
     (attr smd)
-    (fp_text reference "SW40" (at 0 9) (layer "User.1")
+    (fp_text reference "SW18" (at 0 9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 873dd109-ec4f-4aa5-9e7e-cb0bee1fffe5)
     )
@@ -12963,7 +12963,7 @@
     (pad "1" smd roundrect (at -3.5 6) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 41 "COL2") (pinfunction "COL") (pintype "passive") (tstamp 52d2ed93-aa2c-4500-9ee7-70e16b754401))
     (pad "2" smd roundrect (at 8.5 3.8) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
-      (net 55 "Net-(D40-A)") (pinfunction "ROW") (pintype "passive") (tstamp 3ce6a417-27a6-4b17-bc1e-c0d4b642667d))
+      (net 22 "Net-(D18-A)") (pinfunction "ROW") (pintype "passive") (tstamp 3ce6a417-27a6-4b17-bc1e-c0d4b642667d))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -12982,7 +12982,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/c7251553-9ce6-4170-8890-5f537451af60")
     (attr through_hole)
-    (fp_text reference "Bat+0" (at 0 -1.143) (layer "User.1") hide
+    (fp_text reference "Bat+1" (at 0 -1.143) (layer "User.1") hide
         (effects (font (size 0.8128 0.8128) (thickness 0.15)))
       (tstamp 17977f63-c286-496e-9640-9caa2cf1ca79)
     )
@@ -13186,7 +13186,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/8da9bd42-bc63-4b2c-a1ba-3fc4df51f0d4")
-    (fp_text reference "D38" (at 0 -1.397 90) (layer "B.Fab") hide
+    (fp_text reference "D16" (at 0 -1.397 90) (layer "B.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
       (tstamp 39af850e-b2c9-4594-ac11-50548877469a)
     )
@@ -13291,9 +13291,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 19 "ROW3") (pinfunction "K") (pintype "passive") (tstamp 374531fd-81bf-43d8-91b6-38a61de74763))
     (pad "2" thru_hole circle (at 0.6746 -0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 51 "Net-(D38-A)") (pinfunction "A") (pintype "passive") (tstamp 5d914d86-67bb-4a27-87af-8ed09d45f075))
+      (net 20 "Net-(D16-A)") (pinfunction "A") (pintype "passive") (tstamp 5d914d86-67bb-4a27-87af-8ed09d45f075))
     (pad "2" smd custom (at 1.775 0 270) (size 1.3 0.95) (layers "F.Cu")
-      (net 51 "Net-(D38-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 20 "Net-(D16-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -13306,7 +13306,7 @@
           (width 0.1) (fill yes))
       ) (tstamp ee225244-dab6-490b-a9fc-c84f14aaa5bb))
     (pad "2" smd custom (at 1.775 0 270) (size 1.3 0.95) (layers "B.Cu")
-      (net 51 "Net-(D38-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 20 "Net-(D16-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -14387,7 +14387,7 @@
     (property "Sheetname" "")
     (path "/6e57e56f-7412-45d3-b1f0-89ab72c0f291")
     (attr smd)
-    (fp_text reference "SW38" (at 0 9) (layer "User.1")
+    (fp_text reference "SW16" (at 0 9) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 508b35e7-0592-48ab-b6a4-e43e742621e7)
     )
@@ -14518,7 +14518,7 @@
     (pad "1" smd roundrect (at -3.5 6) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 39 "COL0") (pinfunction "COL") (pintype "passive") (tstamp 4a0cffb1-3426-4737-8d1a-db5c1774ab7b))
     (pad "2" smd roundrect (at 8.5 3.8) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
-      (net 51 "Net-(D38-A)") (pinfunction "ROW") (pintype "passive") (tstamp 93a7c40a-9d28-4382-914b-f3980b705789))
+      (net 20 "Net-(D16-A)") (pinfunction "ROW") (pintype "passive") (tstamp 93a7c40a-9d28-4382-914b-f3980b705789))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -14634,7 +14634,7 @@
     (property "ki_keywords" "switch single-pole double-throw spdt ON-ON")
     (path "/3921fc0d-e37b-496e-a2dc-94330d12dbda")
     (attr smd)
-    (fp_text reference "SW_POWER1" (at 0 0.889) (layer "B.SilkS") hide
+    (fp_text reference "SW_POWER2" (at 0 0.889) (layer "B.SilkS") hide
         (effects (font (size 0.6 0.6) (thickness 0.12)) (justify mirror))
       (tstamp b4696806-0324-4c0f-9bd2-c401c77d9dd5)
     )
@@ -14669,7 +14669,7 @@
     (pad "0" smd rect (at 3.7 -1.1 180) (size 0.9 0.9) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 8b2de319-ab74-4745-8d5f-dcd8008b942a))
     (pad "0" smd rect (at 3.7 1.1 180) (size 0.9 0.9) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 77a52e7e-3dc0-4ecf-a6ef-8b2bdf0cab72))
     (pad "1" smd rect (at 2.25 -2.075 180) (size 0.9 1.25) (layers "B.Cu" "B.Paste" "B.Mask")
-      (net 57 "unconnected-(SW_POWER1-A-Pad1)") (pinfunction "A") (pintype "passive+no_connect") (tstamp 5e91e72e-2cb0-4531-ba33-503645076b62))
+      (net 56 "unconnected-(SW_POWER2-A-Pad1)") (pinfunction "A") (pintype "passive+no_connect") (tstamp 5e91e72e-2cb0-4531-ba33-503645076b62))
     (pad "2" smd rect (at -0.75 -2.075 180) (size 0.9 1.25) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 76 "R_BT+") (pinfunction "B") (pintype "passive") (tstamp 4c9aaa82-654e-4634-b0dc-5c3efb347765))
     (pad "3" smd rect (at -2.25 -2.075 180) (size 0.9 1.25) (layers "B.Cu" "B.Paste" "B.Mask")
@@ -14687,7 +14687,7 @@
     (property "ki_keywords" "switch normally-open pushbutton push-button")
     (path "/1ed21d78-d588-405d-9738-72792f1c70cb")
     (attr smd)
-    (fp_text reference "RSW0" (at 0 -2.55 78) (layer "B.SilkS") hide
+    (fp_text reference "RSW1" (at 0 -2.55 78) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 29e4fb43-42b6-48bf-965f-fac93623d3da)
     )
@@ -16430,7 +16430,7 @@
     (property "Sheetname" "")
     (path "/1ebb7e68-6419-47de-8cbd-b3713afe69ab")
     (attr smd)
-    (fp_text reference "SW17" (at 0 9 30) (layer "User.1")
+    (fp_text reference "SW20" (at 0 9 30) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 887b495c-09f1-4717-9779-469d1da3180e)
     )
@@ -16561,7 +16561,7 @@
     (pad "1" smd roundrect (at -3.5 6 30) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 43 "COL4") (pinfunction "COL") (pintype "passive") (tstamp 76fa981c-874f-4798-b69e-2c484928bea8))
     (pad "2" smd roundrect (at 8.5 3.8 30) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
-      (net 21 "Net-(D17-A)") (pinfunction "ROW") (pintype "passive") (tstamp a30503b7-d366-4886-93e5-cab468016047))
+      (net 24 "Net-(D20-A)") (pinfunction "ROW") (pintype "passive") (tstamp a30503b7-d366-4886-93e5-cab468016047))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -17186,7 +17186,7 @@
     (property "Sheetname" "")
     (path "/abeef345-0e23-49e9-ac60-9c3863423043")
     (attr smd)
-    (fp_text reference "SW39" (at 0 9 40) (layer "User.1")
+    (fp_text reference "SW17" (at 0 9 40) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4176235c-a1bd-4b22-b945-cb92b652dc41)
     )
@@ -17317,7 +17317,7 @@
     (pad "1" smd roundrect (at -3.5 6 40) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 40 "COL1") (pinfunction "COL") (pintype "passive") (tstamp 961c5c92-20fd-4302-86c7-1d7d689e4c9c))
     (pad "2" smd roundrect (at 8.5 3.8 40) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
-      (net 52 "Net-(D39-A)") (pinfunction "ROW") (pintype "passive") (tstamp 7918bcde-7e6b-4cdd-9a92-f9256dd4283f))
+      (net 21 "Net-(D17-A)") (pinfunction "ROW") (pintype "passive") (tstamp 7918bcde-7e6b-4cdd-9a92-f9256dd4283f))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -17631,7 +17631,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/3b999077-5ac6-4ee4-95fa-dc9f863d70d2")
-    (fp_text reference "D17" (at 0 -1.397 120) (layer "B.Fab") hide
+    (fp_text reference "D20" (at 0 -1.397 120) (layer "B.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
       (tstamp 0cec4b88-ea27-4c2f-aa32-d48bb15fe297)
     )
@@ -17736,9 +17736,9 @@
     (pad "1" thru_hole circle (at -0.6746 0 30) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 19 "ROW3") (pinfunction "K") (pintype "passive") (tstamp 5a1425c6-498b-4387-9113-8979fc408db8))
     (pad "2" thru_hole circle (at 0.6746 -0.0004 210) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 21 "Net-(D17-A)") (pinfunction "A") (pintype "passive") (tstamp fa7a29c7-789d-455a-bce5-7484cb2e0a82))
+      (net 24 "Net-(D20-A)") (pinfunction "A") (pintype "passive") (tstamp fa7a29c7-789d-455a-bce5-7484cb2e0a82))
     (pad "2" smd custom (at 1.775 0 300) (size 1.3 0.95) (layers "F.Cu")
-      (net 21 "Net-(D17-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 24 "Net-(D20-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -17751,7 +17751,7 @@
           (width 0.1) (fill yes))
       ) (tstamp e08c113b-c9e4-4747-ba33-d0cc07dd3663))
     (pad "2" smd custom (at 1.775 0 300) (size 1.3 0.95) (layers "B.Cu")
-      (net 21 "Net-(D17-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 24 "Net-(D20-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -19159,7 +19159,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/dcf5b53d-4ac8-4c0e-aa33-d25b58ae8212")
-    (fp_text reference "D16" (at 0 -1.397 105) (layer "B.Fab") hide
+    (fp_text reference "D19" (at 0 -1.397 105) (layer "B.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
       (tstamp 28c75585-135d-4fd7-856a-dfb8238ba63a)
     )
@@ -19264,9 +19264,9 @@
     (pad "1" thru_hole circle (at -0.6746 0 15) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 19 "ROW3") (pinfunction "K") (pintype "passive") (tstamp a2914b4b-47bb-4bea-9fc6-7efcdd6593e9))
     (pad "2" thru_hole circle (at 0.6746 -0.0004 195) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 20 "Net-(D16-A)") (pinfunction "A") (pintype "passive") (tstamp 7a546648-b675-4fb7-991d-7a6ef8281eee))
+      (net 23 "Net-(D19-A)") (pinfunction "A") (pintype "passive") (tstamp 7a546648-b675-4fb7-991d-7a6ef8281eee))
     (pad "2" smd custom (at 1.775 0 285) (size 1.3 0.95) (layers "F.Cu")
-      (net 20 "Net-(D16-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 23 "Net-(D19-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -19279,7 +19279,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 0cfb83ac-8ecf-4e96-a6e7-050277862b14))
     (pad "2" smd custom (at 1.775 0 285) (size 1.3 0.95) (layers "B.Cu")
-      (net 20 "Net-(D16-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 23 "Net-(D19-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -21352,7 +21352,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/7cd4c248-0c26-44aa-abb6-52a4a6b8e016")
-    (fp_text reference "D39" (at 0 -1.397 130) (layer "B.Fab") hide
+    (fp_text reference "D17" (at 0 -1.397 130) (layer "B.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
       (tstamp 4337c807-2764-459c-b9a8-44c792cc18d4)
     )
@@ -21457,9 +21457,9 @@
     (pad "1" thru_hole circle (at -0.6746 0 220) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 19 "ROW3") (pinfunction "K") (pintype "passive") (tstamp 825461d2-2a6a-458b-bbd3-e2c8de7b9046))
     (pad "2" thru_hole circle (at 0.6746 -0.0004 40) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 52 "Net-(D39-A)") (pinfunction "A") (pintype "passive") (tstamp 9679e6d8-9bfe-41ca-a6b7-1fb2f157a0ed))
+      (net 21 "Net-(D17-A)") (pinfunction "A") (pintype "passive") (tstamp 9679e6d8-9bfe-41ca-a6b7-1fb2f157a0ed))
     (pad "2" smd custom (at 1.775 0 130) (size 1.3 0.95) (layers "F.Cu")
-      (net 52 "Net-(D39-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 21 "Net-(D17-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -21472,7 +21472,7 @@
           (width 0.1) (fill yes))
       ) (tstamp c5a97b24-9cf8-43ef-96fe-90851dd488bf))
     (pad "2" smd custom (at 1.775 0 130) (size 1.3 0.95) (layers "B.Cu")
-      (net 52 "Net-(D39-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 21 "Net-(D17-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -21649,7 +21649,7 @@
     (property "ki_description" "Diode, small symbol")
     (property "ki_keywords" "diode")
     (path "/e72295be-67a4-42d7-9860-09b454271bb5")
-    (fp_text reference "D40" (at 0 -1.397 90) (layer "B.Fab") hide
+    (fp_text reference "D18" (at 0 -1.397 90) (layer "B.Fab") hide
         (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
       (tstamp 1315d525-5b99-4d58-90a0-98689bbb0e1f)
     )
@@ -21754,9 +21754,9 @@
     (pad "1" thru_hole circle (at -0.6746 0) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
       (net 19 "ROW3") (pinfunction "K") (pintype "passive") (tstamp cddd4c88-d1c9-49e0-ad09-b8b4f4e5cba2))
     (pad "2" thru_hole circle (at 0.6746 -0.0004 180) (size 0.4572 0.4572) (drill 0.3048) (layers "*.Cu")
-      (net 55 "Net-(D40-A)") (pinfunction "A") (pintype "passive") (tstamp a4acb32c-2ccc-49d3-b118-ee60b0842db7))
+      (net 22 "Net-(D18-A)") (pinfunction "A") (pintype "passive") (tstamp a4acb32c-2ccc-49d3-b118-ee60b0842db7))
     (pad "2" smd custom (at 1.775 0 270) (size 1.3 0.95) (layers "F.Cu")
-      (net 55 "Net-(D40-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 22 "Net-(D18-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -21769,7 +21769,7 @@
           (width 0.1) (fill yes))
       ) (tstamp 5e4ebfbb-0aab-470f-ae21-03c8e4843017))
     (pad "2" smd custom (at 1.775 0 270) (size 1.3 0.95) (layers "B.Cu")
-      (net 55 "Net-(D40-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
+      (net 22 "Net-(D18-A)") (pinfunction "A") (pintype "passive") (thermal_bridge_angle 45)
       (options (clearance outline) (anchor rect))
       (primitives
         (gr_poly
@@ -21945,7 +21945,7 @@
     (property "Sheetname" "")
     (path "/97d3acd0-088f-4796-85e1-0494aa8da391")
     (attr smd)
-    (fp_text reference "SW16" (at 0 8.999999 15) (layer "User.1")
+    (fp_text reference "SW19" (at 0 8.999999 15) (layer "User.1")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d7e5c83e-7477-48c4-ba85-d49e2f6b4fba)
     )
@@ -21973,9 +21973,9 @@
       (stroke (width 0.12) (type solid)) (layer "B.SilkS") (tstamp aec9e206-4407-4727-9445-92a7f57e9101))
     (fp_line (start 7 -6.5) (end 7 6.5)
       (stroke (width 0.12) (type solid)) (layer "B.SilkS") (tstamp 0033400a-df5f-4f2f-b492-716c275edcd2))
-    (fp_arc (start -7 -6.5) (mid -6.853554 -6.853553) (end -6.5 -7)
+    (fp_arc (start -7 -6.5) (mid -6.853553 -6.853553) (end -6.5 -7)
       (stroke (width 0.12) (type solid)) (layer "B.SilkS") (tstamp 89c27416-073d-419d-8147-1edf2d4e7dc3))
-    (fp_arc (start -6.5 7) (mid -6.853553 6.853554) (end -7 6.5)
+    (fp_arc (start -6.5 7) (mid -6.853553 6.853553) (end -7 6.5)
       (stroke (width 0.12) (type solid)) (layer "B.SilkS") (tstamp 6003a15e-6bd4-4442-8af6-8430c7590277))
     (fp_arc (start 6.5 -7) (mid 6.853553 -6.853553) (end 7 -6.5)
       (stroke (width 0.12) (type solid)) (layer "B.SilkS") (tstamp f961353a-d3bb-4030-ada6-5f9c70c7dd3e))
@@ -22076,7 +22076,7 @@
     (pad "1" smd roundrect (at -3.5 6 15) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
       (net 42 "COL3") (pinfunction "COL") (pintype "passive") (tstamp 0e4b350f-4ec1-480c-8b4b-e316d2b1facf))
     (pad "2" smd roundrect (at 8.5 3.8 15) (size 2.55 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1)
-      (net 20 "Net-(D16-A)") (pinfunction "ROW") (pintype "passive") (tstamp 58291f3f-85bb-49dc-9cb9-f77dfaa67a4e))
+      (net 23 "Net-(D19-A)") (pinfunction "ROW") (pintype "passive") (tstamp 58291f3f-85bb-49dc-9cb9-f77dfaa67a4e))
     (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -22540,7 +22540,7 @@
     (property "ki_keywords" "mounting hole")
     (path "/89ae54d7-dde4-46ef-8b72-def21ac9e6b7")
     (attr through_hole)
-    (fp_text reference "BatGND0" (at 0 -1.143) (layer "User.1") hide
+    (fp_text reference "BatGND1" (at 0 -1.143) (layer "User.1") hide
         (effects (font (size 0.8128 0.8128) (thickness 0.15)))
       (tstamp 42258757-d365-477b-8ef5-5fd805069757)
     )
@@ -22927,57 +22927,55 @@
   (segment (start 185.618738 118.951528) (end 186.73416 118.951528) (width 0.25) (layer "B.Cu") (net 19) (tstamp 860bc03b-1336-4c26-92e0-7870f8ad991f))
   (segment (start 197.965347 132.664318) (end 193.374182 128.073153) (width 0.25) (layer "B.Cu") (net 19) (tstamp d6f661fd-ff37-41d9-9c5d-9652872f5875))
   (segment (start 186.73416 118.951528) (end 187.651739 118.033949) (width 0.25) (layer "B.Cu") (net 19) (tstamp d7787b87-b73a-48bd-96cf-41a0e91dc867))
-  (segment (start 187.059164 122.902182) (end 186.537546 122.380564) (width 0.25) (layer "F.Cu") (net 20) (tstamp 432a375e-b2f2-4814-b957-8d094d8ab00b))
-  (segment (start 187.059164 125.116998) (end 187.059164 122.902182) (width 0.25) (layer "F.Cu") (net 20) (tstamp 59ef98bd-2251-412c-9c18-3eb5c64c3a45))
-  (segment (start 204.160239 113.094144) (end 205.664421 114.598326) (width 0.25) (layer "F.Cu") (net 21) (tstamp 0f590fc2-469e-4860-961c-af4b41a3e3a8))
-  (segment (start 205.664421 114.598326) (end 205.664421 115.008419) (width 0.25) (layer "F.Cu") (net 21) (tstamp 2da4bcf1-b1fc-4abf-8bdf-450a0ef498d4))
-  (via (at 204.160239 113.094144) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 21) (tstamp 869581a0-f7dd-4473-91e6-b151fa7a8c9d))
-  (segment (start 190.074934 120.460144) (end 195.905239 120.460144) (width 0.25) (layer "B.Cu") (net 21) (tstamp 42b35b7c-e3f1-459c-b3ea-53d75689d059))
-  (segment (start 189.426739 121.108339) (end 190.074934 120.460144) (width 0.25) (layer "B.Cu") (net 21) (tstamp 48613d72-8c03-467a-9ce7-e8be12ab5f82))
-  (segment (start 203.271239 113.094144) (end 204.160239 113.094144) (width 0.25) (layer "B.Cu") (net 21) (tstamp 71147161-be70-4b5a-a821-cd1b18f3e6b7))
-  (segment (start 195.905239 120.460144) (end 203.271239 113.094144) (width 0.25) (layer "B.Cu") (net 21) (tstamp c25daa58-79fc-4a30-9b0b-d4b140802b0b))
-  (segment (start 253.318649 126.861537) (end 253.318649 129.194812) (width 0.25) (layer "B.Cu") (net 22) (tstamp 7fc82c36-7105-4986-8a55-c3f4b7c470aa))
-  (segment (start 253.318649 129.194812) (end 253.107895 129.405566) (width 0.25) (layer "B.Cu") (net 22) (tstamp d8a7750d-3058-40de-9765-ed179e712a92))
-  (segment (start 269.928399 125.752789) (end 271.319648 124.36154) (width 0.25) (layer "B.Cu") (net 23) (tstamp 052eabb9-7504-43af-8367-ec2dcaa63c60))
-  (segment (start 271.395895 132.167816) (end 269.928399 130.70032) (width 0.25) (layer "B.Cu") (net 23) (tstamp 6a4c44a0-b605-4680-ac55-0988956af45b))
-  (segment (start 269.928399 130.70032) (end 269.928399 125.752789) (width 0.25) (layer "B.Cu") (net 23) (tstamp 8d1edb1e-7bbd-4286-a427-d2bda7375907))
-  (segment (start 289.318652 120.658323) (end 289.429895 120.769566) (width 0.25) (layer "B.Cu") (net 24) (tstamp 1f8b1c3f-14b7-4038-8259-1264208a6af8))
-  (segment (start 289.318652 117.861538) (end 289.318652 120.658323) (width 0.25) (layer "B.Cu") (net 24) (tstamp b8ee8338-ac44-4374-8c7d-3b5ee448302f))
-  (segment (start 309.832423 123.862038) (end 309.876895 123.817566) (width 0.25) (layer "B.Cu") (net 25) (tstamp 67e941f0-ba68-463a-b4ce-3000554f3a79))
-  (segment (start 307.31865 123.862038) (end 309.832423 123.862038) (width 0.25) (layer "B.Cu") (net 25) (tstamp ff9acbb4-57e3-4f3c-b0fd-d1e32254bcc4))
-  (segment (start 325.318653 140.370324) (end 325.370895 140.422566) (width 0.25) (layer "B.Cu") (net 26) (tstamp 25ccd100-8d2f-435b-a47d-62d9e074bd9c))
-  (segment (start 325.318653 137.862037) (end 325.318653 140.370324) (width 0.25) (layer "B.Cu") (net 26) (tstamp 88de0ec6-9bd1-4e5f-9b99-cdbfccdc71b1))
-  (segment (start 251.894399 145.28579) (end 251.894399 152.992816) (width 0.25) (layer "B.Cu") (net 27) (tstamp 3b644a0f-ab07-46eb-b44a-ba9ccef52c37))
-  (segment (start 251.894399 152.992816) (end 253.418399 154.516816) (width 0.25) (layer "B.Cu") (net 27) (tstamp 4c20cff9-9803-4699-b37e-2b2c67a84a3b))
-  (segment (start 253.318649 143.86154) (end 251.894399 145.28579) (width 0.25) (layer "B.Cu") (net 27) (tstamp d96f2181-ae54-41f3-8a92-3cd3f18920fc))
-  (segment (start 271.319651 146.49981) (end 271.268895 146.550566) (width 0.25) (layer "B.Cu") (net 28) (tstamp a713a47b-41c8-4249-83bf-ea02bdd21388))
-  (segment (start 271.319651 141.361535) (end 271.319651 146.49981) (width 0.25) (layer "B.Cu") (net 28) (tstamp b916879b-9e74-41b1-8094-7ca8b9e31a55))
-  (segment (start 289.318649 139.20032) (end 289.683895 139.565566) (width 0.25) (layer "B.Cu") (net 29) (tstamp 86acd520-eff6-4429-8fde-67e7fbf39878))
-  (segment (start 289.318649 134.861535) (end 289.318649 139.20032) (width 0.25) (layer "B.Cu") (net 29) (tstamp bd9f7cea-fed6-43c1-8670-005d56cf3946))
-  (segment (start 307.318648 143.618945) (end 307.435627 143.735924) (width 0.25) (layer "B.Cu") (net 30) (tstamp a0c8d052-11e0-4a2d-b373-ba51d4960783))
-  (segment (start 307.318648 140.862033) (end 307.318648 143.618945) (width 0.25) (layer "B.Cu") (net 30) (tstamp e48443cc-3ec4-4398-b2b9-2c8f709dac3e))
-  (segment (start 325.318651 155.896322) (end 325.370895 155.948566) (width 0.25) (layer "B.Cu") (net 31) (tstamp 18f42eb8-380b-4234-a38b-6cc94e8f68c1))
-  (segment (start 325.370895 154.914278) (end 325.318651 154.862034) (width 0.25) (layer "B.Cu") (net 31) (tstamp 46482494-04c1-43c3-a849-1044f8fb46c3))
-  (segment (start 325.370895 157.948566) (end 325.370895 154.914278) (width 0.25) (layer "B.Cu") (net 31) (tstamp 59c2d5a4-ba1c-4b3d-921a-078eef277ce2))
-  (segment (start 253.318646 160.861534) (end 253.318646 165.303317) (width 0.25) (layer "B.Cu") (net 32) (tstamp 52b6ff4c-a7f8-4850-af8e-a461e587bf3f))
-  (segment (start 253.318646 165.303317) (end 253.615895 165.600566) (width 0.25) (layer "B.Cu") (net 32) (tstamp cbf6f5f6-8fc1-4b7c-bf43-527bf837757c))
-  (segment (start 271.319651 158.361536) (end 271.319651 160.193322) (width 0.25) (layer "B.Cu") (net 33) (tstamp 05c7472c-d677-459d-bc53-e528654d7515))
-  (segment (start 271.319651 160.193322) (end 275.078895 163.952566) (width 0.25) (layer "B.Cu") (net 33) (tstamp 339c69e8-d9f0-421c-b448-3fb0c54715e7))
-  (segment (start 275.078895 163.952566) (end 277.040399 163.952566) (width 0.25) (layer "B.Cu") (net 33) (tstamp 826994af-ed78-4bb1-920a-37afd0e0ffbe))
-  (segment (start 289.318649 151.861536) (end 289.318649 155.07532) (width 0.25) (layer "B.Cu") (net 34) (tstamp d65696fe-91a9-45b4-a258-cf9b77fd21d3))
-  (segment (start 289.318649 155.07532) (end 289.429895 155.186566) (width 0.25) (layer "B.Cu") (net 34) (tstamp ed7f249c-d89a-4d9f-ba8e-bbd857620c54))
-  (segment (start 310.24316 160.786551) (end 307.318648 157.862039) (width 0.25) (layer "B.Cu") (net 35) (tstamp 07173d42-4b07-49a3-ba85-c82508ac1390))
-  (segment (start 310.24316 166.885301) (end 310.24316 160.786551) (width 0.25) (layer "B.Cu") (net 35) (tstamp 33e1688b-fd44-4de5-a35b-5ef55f15bdce))
-  (segment (start 308.479895 168.648566) (end 310.24316 166.885301) (width 0.25) (layer "B.Cu") (net 35) (tstamp b2d49832-6be0-463b-9ff7-c9e1beabc443))
-  (segment (start 325.370895 174.966566) (end 325.370895 171.914283) (width 0.25) (layer "B.Cu") (net 36) (tstamp 34b6380e-262e-4738-80a6-b5b5cb4dc329))
-  (segment (start 325.318649 172.91432) (end 325.370895 172.966566) (width 0.25) (layer "B.Cu") (net 36) (tstamp 462fa638-dea6-40f3-ac30-6380f70b8d84))
-  (segment (start 325.370895 171.914283) (end 325.318649 171.862037) (width 0.25) (layer "B.Cu") (net 36) (tstamp d2171666-1703-48b0-acc4-58df0e3fea79))
-  (segment (start 239.842901 183.178877) (end 241.806395 185.142371) (width 0.25) (layer "B.Cu") (net 37) (tstamp 4cd90b06-bb83-48f9-a78c-06e859856ce5))
-  (segment (start 239.842901 182.49926) (end 239.842901 183.178877) (width 0.25) (layer "B.Cu") (net 37) (tstamp 818df02b-a3eb-45c9-8076-a6f2a1828346))
-  (segment (start 248.450477 180.040816) (end 257.228399 180.040816) (width 0.25) (layer "B.Cu") (net 38) (tstamp 7cffd1aa-5520-4285-95db-ede5dce1e2a5))
-  (segment (start 260.146465 177.12275) (end 260.146465 176.490757) (width 0.25) (layer "B.Cu") (net 38) (tstamp 8ea0646a-30e4-4326-b269-883410ad04ca))
-  (segment (start 257.228399 180.040816) (end 260.146465 177.12275) (width 0.25) (layer "B.Cu") (net 38) (tstamp abcc52da-b4dc-47df-bfeb-9c84fbd869bf))
-  (segment (start 244.449995 184.041298) (end 248.450477 180.040816) (width 0.25) (layer "B.Cu") (net 38) (tstamp f6eeb4b4-77ce-4499-b097-6bb8e86a0c97))
+  (segment (start 104.599845 149.009944) (end 104.464084 149.145705) (width 0.25) (layer "F.Cu") (net 20) (tstamp 4e793d50-303a-407e-8d8a-6763c6e0d2a8))
+  (segment (start 104.599845 146.002658) (end 104.599845 149.009944) (width 0.25) (layer "F.Cu") (net 20) (tstamp b0fc3c5b-f879-4d1b-833c-d750de0cfac9))
+  (segment (start 104.861423 148.748366) (end 104.464084 149.145705) (width 0.25) (layer "F.Cu") (net 20) (tstamp bbfc8644-52f3-4bc2-9c36-91db021e3e3f))
+  (segment (start 221.388175 102.174644) (end 212.020135 102.174644) (width 0.25) (layer "F.Cu") (net 21) (tstamp 2f8068fa-fbf7-423b-ba00-20b4bcddb7f8))
+  (segment (start 221.680569 101.88225) (end 221.388175 102.174644) (width 0.25) (layer "F.Cu") (net 21) (tstamp 4abfaa23-3eb4-4f00-aa9a-a8b03fc04131))
+  (segment (start 212.020135 102.174644) (end 205.005277 109.189502) (width 0.25) (layer "F.Cu") (net 21) (tstamp b19adb2e-e9ec-482c-b6d9-060d6b4194b3))
+  (segment (start 104.595106 128.900463) (end 104.595106 132.014048) (width 0.25) (layer "F.Cu") (net 22) (tstamp 1383ad3b-0153-44be-a872-26d3bc8f3790))
+  (segment (start 104.595106 132.014048) (end 104.464241 132.144913) (width 0.25) (layer "F.Cu") (net 22) (tstamp a8112323-1de1-4e28-8ae2-9da792266147))
+  (segment (start 187.059164 122.902182) (end 186.537546 122.380564) (width 0.25) (layer "F.Cu") (net 23) (tstamp 432a375e-b2f2-4814-b957-8d094d8ab00b))
+  (segment (start 187.059164 125.116998) (end 187.059164 122.902182) (width 0.25) (layer "F.Cu") (net 23) (tstamp 59ef98bd-2251-412c-9c18-3eb5c64c3a45))
+  (segment (start 204.160239 113.094144) (end 205.664421 114.598326) (width 0.25) (layer "F.Cu") (net 24) (tstamp 0f590fc2-469e-4860-961c-af4b41a3e3a8))
+  (segment (start 205.664421 114.598326) (end 205.664421 115.008419) (width 0.25) (layer "F.Cu") (net 24) (tstamp 2da4bcf1-b1fc-4abf-8bdf-450a0ef498d4))
+  (via (at 204.160239 113.094144) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 24) (tstamp 869581a0-f7dd-4473-91e6-b151fa7a8c9d))
+  (segment (start 190.074934 120.460144) (end 195.905239 120.460144) (width 0.25) (layer "B.Cu") (net 24) (tstamp 42b35b7c-e3f1-459c-b3ea-53d75689d059))
+  (segment (start 189.426739 121.108339) (end 190.074934 120.460144) (width 0.25) (layer "B.Cu") (net 24) (tstamp 48613d72-8c03-467a-9ce7-e8be12ab5f82))
+  (segment (start 203.271239 113.094144) (end 204.160239 113.094144) (width 0.25) (layer "B.Cu") (net 24) (tstamp 71147161-be70-4b5a-a821-cd1b18f3e6b7))
+  (segment (start 195.905239 120.460144) (end 203.271239 113.094144) (width 0.25) (layer "B.Cu") (net 24) (tstamp c25daa58-79fc-4a30-9b0b-d4b140802b0b))
+  (segment (start 253.318649 126.861537) (end 253.318649 129.194812) (width 0.25) (layer "B.Cu") (net 25) (tstamp 7fc82c36-7105-4986-8a55-c3f4b7c470aa))
+  (segment (start 253.318649 129.194812) (end 253.107895 129.405566) (width 0.25) (layer "B.Cu") (net 25) (tstamp d8a7750d-3058-40de-9765-ed179e712a92))
+  (segment (start 269.928399 125.752789) (end 271.319648 124.36154) (width 0.25) (layer "B.Cu") (net 26) (tstamp 052eabb9-7504-43af-8367-ec2dcaa63c60))
+  (segment (start 271.395895 132.167816) (end 269.928399 130.70032) (width 0.25) (layer "B.Cu") (net 26) (tstamp 6a4c44a0-b605-4680-ac55-0988956af45b))
+  (segment (start 269.928399 130.70032) (end 269.928399 125.752789) (width 0.25) (layer "B.Cu") (net 26) (tstamp 8d1edb1e-7bbd-4286-a427-d2bda7375907))
+  (segment (start 289.318652 120.658323) (end 289.429895 120.769566) (width 0.25) (layer "B.Cu") (net 27) (tstamp 1f8b1c3f-14b7-4038-8259-1264208a6af8))
+  (segment (start 289.318652 117.861538) (end 289.318652 120.658323) (width 0.25) (layer "B.Cu") (net 27) (tstamp b8ee8338-ac44-4374-8c7d-3b5ee448302f))
+  (segment (start 309.832423 123.862038) (end 309.876895 123.817566) (width 0.25) (layer "B.Cu") (net 28) (tstamp 67e941f0-ba68-463a-b4ce-3000554f3a79))
+  (segment (start 307.31865 123.862038) (end 309.832423 123.862038) (width 0.25) (layer "B.Cu") (net 28) (tstamp ff9acbb4-57e3-4f3c-b0fd-d1e32254bcc4))
+  (segment (start 325.318653 140.370324) (end 325.370895 140.422566) (width 0.25) (layer "B.Cu") (net 29) (tstamp 25ccd100-8d2f-435b-a47d-62d9e074bd9c))
+  (segment (start 325.318653 137.862037) (end 325.318653 140.370324) (width 0.25) (layer "B.Cu") (net 29) (tstamp 88de0ec6-9bd1-4e5f-9b99-cdbfccdc71b1))
+  (segment (start 251.894399 145.28579) (end 251.894399 152.992816) (width 0.25) (layer "B.Cu") (net 30) (tstamp 3b644a0f-ab07-46eb-b44a-ba9ccef52c37))
+  (segment (start 251.894399 152.992816) (end 253.418399 154.516816) (width 0.25) (layer "B.Cu") (net 30) (tstamp 4c20cff9-9803-4699-b37e-2b2c67a84a3b))
+  (segment (start 253.318649 143.86154) (end 251.894399 145.28579) (width 0.25) (layer "B.Cu") (net 30) (tstamp d96f2181-ae54-41f3-8a92-3cd3f18920fc))
+  (segment (start 271.319651 146.49981) (end 271.268895 146.550566) (width 0.25) (layer "B.Cu") (net 31) (tstamp a713a47b-41c8-4249-83bf-ea02bdd21388))
+  (segment (start 271.319651 141.361535) (end 271.319651 146.49981) (width 0.25) (layer "B.Cu") (net 31) (tstamp b916879b-9e74-41b1-8094-7ca8b9e31a55))
+  (segment (start 289.318649 139.20032) (end 289.683895 139.565566) (width 0.25) (layer "B.Cu") (net 32) (tstamp 86acd520-eff6-4429-8fde-67e7fbf39878))
+  (segment (start 289.318649 134.861535) (end 289.318649 139.20032) (width 0.25) (layer "B.Cu") (net 32) (tstamp bd9f7cea-fed6-43c1-8670-005d56cf3946))
+  (segment (start 307.318648 143.618945) (end 307.435627 143.735924) (width 0.25) (layer "B.Cu") (net 33) (tstamp a0c8d052-11e0-4a2d-b373-ba51d4960783))
+  (segment (start 307.318648 140.862033) (end 307.318648 143.618945) (width 0.25) (layer "B.Cu") (net 33) (tstamp e48443cc-3ec4-4398-b2b9-2c8f709dac3e))
+  (segment (start 325.318651 155.896322) (end 325.370895 155.948566) (width 0.25) (layer "B.Cu") (net 34) (tstamp 18f42eb8-380b-4234-a38b-6cc94e8f68c1))
+  (segment (start 325.370895 157.948566) (end 325.370895 154.914278) (width 0.25) (layer "B.Cu") (net 34) (tstamp 59c2d5a4-ba1c-4b3d-921a-078eef277ce2))
+  (segment (start 253.318646 160.861534) (end 253.318646 165.303317) (width 0.25) (layer "B.Cu") (net 35) (tstamp 52b6ff4c-a7f8-4850-af8e-a461e587bf3f))
+  (segment (start 253.318646 165.303317) (end 253.615895 165.600566) (width 0.25) (layer "B.Cu") (net 35) (tstamp cbf6f5f6-8fc1-4b7c-bf43-527bf837757c))
+  (segment (start 271.319651 158.361536) (end 271.319651 160.193322) (width 0.25) (layer "B.Cu") (net 36) (tstamp 05c7472c-d677-459d-bc53-e528654d7515))
+  (segment (start 271.319651 160.193322) (end 275.078895 163.952566) (width 0.25) (layer "B.Cu") (net 36) (tstamp 339c69e8-d9f0-421c-b448-3fb0c54715e7))
+  (segment (start 275.078895 163.952566) (end 277.040399 163.952566) (width 0.25) (layer "B.Cu") (net 36) (tstamp 826994af-ed78-4bb1-920a-37afd0e0ffbe))
+  (segment (start 289.318649 151.861536) (end 289.318649 155.07532) (width 0.25) (layer "B.Cu") (net 37) (tstamp d65696fe-91a9-45b4-a258-cf9b77fd21d3))
+  (segment (start 289.318649 155.07532) (end 289.429895 155.186566) (width 0.25) (layer "B.Cu") (net 37) (tstamp ed7f249c-d89a-4d9f-ba8e-bbd857620c54))
+  (segment (start 310.24316 160.786551) (end 307.318648 157.862039) (width 0.25) (layer "B.Cu") (net 38) (tstamp 07173d42-4b07-49a3-ba85-c82508ac1390))
+  (segment (start 310.24316 166.885301) (end 310.24316 160.786551) (width 0.25) (layer "B.Cu") (net 38) (tstamp 33e1688b-fd44-4de5-a35b-5ef55f15bdce))
+  (segment (start 308.479895 168.648566) (end 310.24316 166.885301) (width 0.25) (layer "B.Cu") (net 38) (tstamp b2d49832-6be0-463b-9ff7-c9e1beabc443))
   (segment (start 110.466239 170.34564) (end 110.466239 153.345645) (width 0.25) (layer "F.Cu") (net 39) (tstamp 0c3dcf15-5e43-4bec-a927-2e33ca75a7d1))
   (segment (start 94.464024 153.345645) (end 110.466239 153.345645) (width 0.25) (layer "F.Cu") (net 39) (tstamp 2473b502-9464-4ee1-bc98-7c58cc4f7922))
   (segment (start 191.205278 147.969709) (end 191.25251 147.922477) (width 0.25) (layer "F.Cu") (net 39) (tstamp 55c638b1-4c5e-4f40-954b-cb07583f9610))
@@ -23117,8 +23115,9 @@
   (via (at 209.621239 165.672144) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 44) (tstamp ec8001f3-ff53-446b-8a6d-d8735cbe098e))
   (segment (start 209.621239 165.672144) (end 209.651572 165.702477) (width 0.25) (layer "B.Cu") (net 44) (tstamp 5e8f251b-27ec-4938-b743-44f9067e0266))
   (segment (start 209.651572 165.702477) (end 212.351269 165.702477) (width 0.25) (layer "B.Cu") (net 44) (tstamp 936afb20-d282-427c-b9fe-174ac00d3ee1))
-  (segment (start 222.187077 193.349004) (end 222.187077 193.138039) (width 0.25) (layer "B.Cu") (net 45) (tstamp 7276a858-37e5-4b0d-a741-e41fc07d405f))
-  (segment (start 224.144382 195.306309) (end 222.187077 193.349004) (width 0.25) (layer "B.Cu") (net 45) (tstamp d7be79eb-d367-4206-a1e7-5787ca60db71))
+  (segment (start 325.370895 171.914283) (end 325.318649 171.862037) (width 0.25) (layer "B.Cu") (net 45) (tstamp 011fc31c-a93a-4eb6-bdab-208143393df9))
+  (segment (start 325.318649 172.91432) (end 325.370895 172.966566) (width 0.25) (layer "B.Cu") (net 45) (tstamp 462fa638-dea6-40f3-ac30-6380f70b8d84))
+  (segment (start 325.370895 174.966566) (end 325.370895 171.914283) (width 0.25) (layer "B.Cu") (net 45) (tstamp 70d72bf0-4278-4e97-a7aa-b48621039905))
   (segment (start 207.124439 161.691944) (end 207.124439 131.285144) (width 0.25) (layer "F.Cu") (net 46) (tstamp 0c7617a4-35dc-4949-acfc-106869d953c1))
   (segment (start 210.388939 166.26437) (end 210.388939 161.691944) (width 0.25) (layer "F.Cu") (net 46) (tstamp 0d56a151-c70d-4754-b2dd-b10ae1986030))
   (segment (start 207.124439 121.969111) (end 207.124439 131.285144) (width 0.25) (layer "F.Cu") (net 46) (tstamp 33c6cd65-f595-4492-adbb-267a0a10778f))
@@ -23145,16 +23144,16 @@
   (via (at 202.128239 152.972144) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 48) (tstamp 94ec1098-9b1f-4788-8818-d0e7d8f88cf1))
   (segment (start 202.158572 153.002477) (end 212.351269 153.002477) (width 0.25) (layer "B.Cu") (net 48) (tstamp 7ff309f7-6a12-4c84-ac73-0bb9e31b5a66))
   (segment (start 202.128239 152.972144) (end 202.158572 153.002477) (width 0.25) (layer "B.Cu") (net 48) (tstamp b29b92b0-ca9a-4101-9834-2425e1a40dfd))
-  (segment (start 343.318651 159.868554) (end 343.444869 159.994772) (width 0.25) (layer "B.Cu") (net 49) (tstamp 0616cef8-6ea9-4f34-a4ef-59ff4db7ae94))
-  (segment (start 343.318651 156.862034) (end 343.318651 159.868554) (width 0.25) (layer "B.Cu") (net 49) (tstamp ae0cba35-7754-4112-b4a7-220cb63376a6))
-  (segment (start 343.448471 173.991854) (end 343.318651 173.862034) (width 0.25) (layer "B.Cu") (net 50) (tstamp 406d91c4-93ab-4b80-a51a-8d21c9280c4f))
-  (segment (start 343.448471 176.85317) (end 343.448471 173.991854) (width 0.25) (layer "B.Cu") (net 50) (tstamp e7ccb3eb-e2b6-405e-bc55-2c983ec4ca12))
-  (segment (start 104.599845 149.009944) (end 104.464084 149.145705) (width 0.25) (layer "F.Cu") (net 51) (tstamp 4e793d50-303a-407e-8d8a-6763c6e0d2a8))
-  (segment (start 104.599845 146.002658) (end 104.599845 149.009944) (width 0.25) (layer "F.Cu") (net 51) (tstamp b0fc3c5b-f879-4d1b-833c-d750de0cfac9))
-  (segment (start 104.861423 148.748366) (end 104.464084 149.145705) (width 0.25) (layer "F.Cu") (net 51) (tstamp bbfc8644-52f3-4bc2-9c36-91db021e3e3f))
-  (segment (start 221.388175 102.174644) (end 212.020135 102.174644) (width 0.25) (layer "F.Cu") (net 52) (tstamp 2f8068fa-fbf7-423b-ba00-20b4bcddb7f8))
-  (segment (start 221.680569 101.88225) (end 221.388175 102.174644) (width 0.25) (layer "F.Cu") (net 52) (tstamp 4abfaa23-3eb4-4f00-aa9a-a8b03fc04131))
-  (segment (start 212.020135 102.174644) (end 205.005277 109.189502) (width 0.25) (layer "F.Cu") (net 52) (tstamp b19adb2e-e9ec-482c-b6d9-060d6b4194b3))
+  (segment (start 239.842901 183.178877) (end 241.806395 185.142371) (width 0.25) (layer "B.Cu") (net 49) (tstamp 4cd90b06-bb83-48f9-a78c-06e859856ce5))
+  (segment (start 239.842901 182.49926) (end 239.842901 183.178877) (width 0.25) (layer "B.Cu") (net 49) (tstamp 818df02b-a3eb-45c9-8076-a6f2a1828346))
+  (segment (start 248.450477 180.040816) (end 257.228399 180.040816) (width 0.25) (layer "B.Cu") (net 50) (tstamp 7cffd1aa-5520-4285-95db-ede5dce1e2a5))
+  (segment (start 260.146465 177.12275) (end 260.146465 176.490757) (width 0.25) (layer "B.Cu") (net 50) (tstamp 8ea0646a-30e4-4326-b269-883410ad04ca))
+  (segment (start 257.228399 180.040816) (end 260.146465 177.12275) (width 0.25) (layer "B.Cu") (net 50) (tstamp abcc52da-b4dc-47df-bfeb-9c84fbd869bf))
+  (segment (start 244.449995 184.041298) (end 248.450477 180.040816) (width 0.25) (layer "B.Cu") (net 50) (tstamp f6eeb4b4-77ce-4499-b097-6bb8e86a0c97))
+  (segment (start 222.187077 193.349004) (end 222.187077 193.138039) (width 0.25) (layer "B.Cu") (net 51) (tstamp 7276a858-37e5-4b0d-a741-e41fc07d405f))
+  (segment (start 224.144382 195.306309) (end 222.187077 193.349004) (width 0.25) (layer "B.Cu") (net 51) (tstamp d7be79eb-d367-4206-a1e7-5787ca60db71))
+  (segment (start 343.318651 159.868554) (end 343.444869 159.994772) (width 0.25) (layer "B.Cu") (net 52) (tstamp 0616cef8-6ea9-4f34-a4ef-59ff4db7ae94))
+  (segment (start 343.318651 156.862034) (end 343.318651 159.868554) (width 0.25) (layer "B.Cu") (net 52) (tstamp ae0cba35-7754-4112-b4a7-220cb63376a6))
   (segment (start 204.584439 157.841344) (end 204.584439 131.285144) (width 0.25) (layer "F.Cu") (net 53) (tstamp 454d4ba8-6b59-42d4-88f1-3be32c347070))
   (segment (start 204.668239 157.925144) (end 204.584439 157.841344) (width 0.25) (layer "F.Cu") (net 53) (tstamp c69758b1-ab9c-4102-b4c7-418d9590155d))
   (via (at 204.668239 157.925144) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 53) (tstamp 29d1cf6f-d1b1-4bf4-b28c-9039b0adb2b0))
@@ -23165,8 +23164,8 @@
   (via (at 204.311678 167.019709) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 54) (tstamp 56fbcaac-3322-4416-98e6-1cf276499c51))
   (segment (start 204.311678 167.019709) (end 198.368078 167.019709) (width 0.25) (layer "B.Cu") (net 54) (tstamp 0933e441-d49c-403b-ae16-3d866c483f15))
   (segment (start 198.368078 167.019709) (end 196.945678 168.442109) (width 0.25) (layer "B.Cu") (net 54) (tstamp dd5585ea-d04e-4a9e-8c2a-a108d4467df4))
-  (segment (start 104.595106 128.900463) (end 104.595106 132.014048) (width 0.25) (layer "F.Cu") (net 55) (tstamp 1383ad3b-0153-44be-a872-26d3bc8f3790))
-  (segment (start 104.595106 132.014048) (end 104.464241 132.144913) (width 0.25) (layer "F.Cu") (net 55) (tstamp a8112323-1de1-4e28-8ae2-9da792266147))
+  (segment (start 343.448471 173.991854) (end 343.318651 173.862034) (width 0.25) (layer "B.Cu") (net 55) (tstamp 406d91c4-93ab-4b80-a51a-8d21c9280c4f))
+  (segment (start 343.448471 176.85317) (end 343.448471 173.991854) (width 0.25) (layer "B.Cu") (net 55) (tstamp e7ccb3eb-e2b6-405e-bc55-2c983ec4ca12))
   (segment (start 220.849895 150.611566) (end 220.996259 150.465202) (width 0.25) (layer "F.Cu") (net 61) (tstamp 1fe88a40-fcb6-414b-bb71-a244ae6b70d3))
   (segment (start 220.996259 150.465202) (end 233.673621 150.465202) (width 0.25) (layer "F.Cu") (net 61) (tstamp 3569853f-b300-488a-ae0b-ebb9256de91d))
   (via (at 220.849895 150.611566) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 61) (tstamp 6548b216-8dd5-469b-872f-764d777d57e6))
@@ -65469,6 +65468,7 @@
   (group "" (id a21f76b8-5c06-4717-bfd8-657a78fb1e99)
     (members
       0057d4f8-4e07-4b36-b0e7-ab18657b8461
+      011fc31c-a93a-4eb6-bdab-208143393df9
       014c52a8-c733-428b-ad29-8d12e1990b61
       0165119b-e8af-4277-b831-ec4ac6342760
       0192843c-68b3-4d39-b901-e03bbab55ea2
@@ -65544,7 +65544,6 @@
       33e1688b-fd44-4de5-a35b-5ef55f15bdce
       34ac5d6c-afdd-40a1-b79b-dd079cecf98f
       34b2948d-a2c6-40be-8942-1ba4a42b8d92
-      34b6380e-262e-4738-80a6-b5b5cb4dc329
       34c144a4-5bc2-43ef-98a3-85f94ca8c824
       35370998-b265-402b-9031-1a5593c10a8c
       3569853f-b300-488a-ae0b-ebb9256de91d
@@ -65568,7 +65567,6 @@
       444c5e53-5c24-424f-acd2-029402474dd8
       45a978dd-b70b-4184-85bc-7f589775c304
       462fa638-dea6-40f3-ac30-6380f70b8d84
-      46482494-04c1-43c3-a849-1044f8fb46c3
       467e7666-d991-4bed-9208-94f87525deca
       46f0938a-56df-4019-9ddb-681199fd5a79
       46f38860-b09a-4c78-bfa0-3885c675e0bc
@@ -65642,6 +65640,7 @@
       6f16e1ac-5f77-4875-b79e-dcb314c7469d
       6f203994-e111-4f05-9a9f-c5b7ea2187d1
       7073639c-b02c-468f-a20a-a988be205e04
+      70d72bf0-4278-4e97-a7aa-b48621039905
       7276a858-37e5-4b0d-a741-e41fc07d405f
       727bbcad-a40d-49ad-b08b-1824be4f8428
       731ab70b-f37f-493b-bf62-6c5dd8515d90
@@ -65798,7 +65797,6 @@
       cef2a096-9848-43ec-8a93-aa9f80424fc6
       d02d2943-47ca-4209-bfd5-01156ae2de69
       d0d4f758-50c5-4c57-9348-f5ba3aaee75b
-      d2171666-1703-48b0-acc4-58df0e3fea79
       d243df98-33be-4dbc-a8a7-77b56883bffd
       d2995b88-c65f-4055-b052-35a0019328ce
       d2a383a5-fc38-48ea-92c2-ab456620c7b9

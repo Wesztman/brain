@@ -3,8 +3,8 @@
 TODO
 Prio 1
 - Check that everything is connected.
-- Reorder labels.
 - Move repo to real fork of urchin repo.
+- Change back text.
 
 ![PCB Preview](./gallery/main/main-top.png)
 ![PCB Preview](./gallery/main/main-bottom.png)

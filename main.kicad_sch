@@ -267,13 +267,13 @@
       )
     )
     (symbol "nice_nano:nice_nano" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 0 0)
+      (property "Reference" "U2" (at 0 23.4539 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Value" "nice_nano" (at 0 2.54 0)
+      (property "Value" "nice_nano" (at 0 20.1749 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Footprint" "" (at 26.67 -63.5 90)
+      (property "Footprint" "urchin-footprints:nice_nano" (at 26.67 -63.5 90)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Datasheet" "" (at 26.67 -63.5 90)
@@ -358,17 +358,123 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at -7.62 -26.67 90) (length 5.08)
-          (name "P1.01" (effects (font (size 1.27 1.27))))
-          (number "31" (effects (font (size 1.27 1.27))))
+        (pin input line (at -17.78 6.35 0) (length 5.08)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at -3.81 -26.67 90) (length 5.08)
-          (name "P1.02" (effects (font (size 1.27 1.27))))
-          (number "32" (effects (font (size 1.27 1.27))))
+        (pin input line (at -17.78 3.81 0) (length 5.08)
+          (name "P0.17" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 0 -26.67 90) (length 5.08)
-          (name "P1.07" (effects (font (size 1.27 1.27))))
-          (number "33" (effects (font (size 1.27 1.27))))
+        (pin input line (at -17.78 1.27 0) (length 5.08)
+          (name "P0.20" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 -1.27 0) (length 5.08)
+          (name "P0.22" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 -3.81 0) (length 5.08)
+          (name "P0.24" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 -6.35 0) (length 5.08)
+          (name "P1.00" (effects (font (size 1.27 1.27))))
+          (number "9" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "nice_nano_1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "U1" (at 0 23.4539 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "nice_nano" (at 0 20.1749 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "urchin-footprints:nice_nano" (at 26.67 -63.5 90)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (property "Datasheet" "" (at 26.67 -63.5 90)
+        (effects (font (size 1.524 1.524)) hide)
+      )
+      (symbol "nice_nano_1_0_1"
+        (rectangle (start -12.7 -21.59) (end 12.7 19.05)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "nice_nano_1_1_1"
+        (pin input line (at -17.78 13.97 0) (length 5.08)
+          (name "TX0/P0.06" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 -8.89 0) (length 5.08)
+          (name "P0.11" (effects (font (size 1.27 1.27))))
+          (number "10" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 -11.43 0) (length 5.08)
+          (name "P1.04" (effects (font (size 1.27 1.27))))
+          (number "11" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 -13.97 0) (length 5.08)
+          (name "P1.06" (effects (font (size 1.27 1.27))))
+          (number "12" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 -13.97 180) (length 5.08)
+          (name "NFC1/P0.09" (effects (font (size 1.27 1.27))))
+          (number "13" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 -11.43 180) (length 5.08)
+          (name "NFC2/P0.10" (effects (font (size 1.27 1.27))))
+          (number "14" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 -8.89 180) (length 5.08)
+          (name "P1.11" (effects (font (size 1.27 1.27))))
+          (number "15" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 -6.35 180) (length 5.08)
+          (name "P1.13" (effects (font (size 1.27 1.27))))
+          (number "16" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 -3.81 180) (length 5.08)
+          (name "P1.15" (effects (font (size 1.27 1.27))))
+          (number "17" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 -1.27 180) (length 5.08)
+          (name "AIN0/P0.02" (effects (font (size 1.27 1.27))))
+          (number "18" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 1.27 180) (length 5.08)
+          (name "AIN5/P0.29" (effects (font (size 1.27 1.27))))
+          (number "19" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 11.43 0) (length 5.08)
+          (name "RX1/P0.08" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 3.81 180) (length 5.08)
+          (name "AIN7/P0.31" (effects (font (size 1.27 1.27))))
+          (number "20" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 6.35 180) (length 5.08)
+          (name "VCC" (effects (font (size 1.27 1.27))))
+          (number "21" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 8.89 180) (length 5.08)
+          (name "RST" (effects (font (size 1.27 1.27))))
+          (number "22" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 11.43 180) (length 5.08)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "23" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 17.78 13.97 180) (length 5.08)
+          (name "BATIN/P0.04" (effects (font (size 1.27 1.27))))
+          (number "24" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -17.78 8.89 0) (length 5.08)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
         )
         (pin input line (at -17.78 6.35 0) (length 5.08)
           (name "GND" (effects (font (size 1.27 1.27))))
@@ -1691,7 +1797,7 @@
   (symbol (lib_id "Device:D_Small") (at 139.7 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01a0ccba-a709-41b4-8fc5-4c4917247315)
-    (property "Reference" "D21" (at 141.4272 134.7216 90)
+    (property "Reference" "D24" (at 141.4272 134.7216 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 141.4272 137.033 90)
@@ -1708,7 +1814,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D21") (unit 1)
+          (reference "D24") (unit 1)
         )
       )
     )
@@ -1743,7 +1849,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 53.34 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05ae7b02-d7e4-4aca-9fc7-48da9bfc2be7)
-    (property "Reference" "SW40" (at 54.1782 75.6158 0)
+    (property "Reference" "SW18" (at 54.1782 75.6158 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 54.1782 77.4954 0)
@@ -1760,7 +1866,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW40") (unit 1)
+          (reference "SW18") (unit 1)
         )
       )
     )
@@ -1769,7 +1875,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 149.86 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07fe0c5b-184a-48c8-8c1f-111350a3f07e)
-    (property "Reference" "SW32" (at 150.6982 156.8958 0)
+    (property "Reference" "SW35" (at 150.6982 156.8958 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 150.6982 158.7754 0)
@@ -1786,7 +1892,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW32") (unit 1)
+          (reference "SW35") (unit 1)
         )
       )
     )
@@ -1795,7 +1901,7 @@
   (symbol (lib_id "power:GND") (at 120.65 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0eb68e6e-484a-43df-b48d-65d9d4d17a1b)
-    (property "Reference" "#PWR0103" (at 120.65 88.9 0)
+    (property "Reference" "#PWR06" (at 120.65 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.65 86.9934 0)
@@ -1811,7 +1917,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1846,7 +1952,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 114.3 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 17e5ad38-5c5b-474c-acb9-9da00cfd2b15)
-    (property "Reference" "SW33" (at 115.1382 173.4058 0)
+    (property "Reference" "SW36" (at 115.1382 173.4058 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 115.1382 175.2854 0)
@@ -1863,7 +1969,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW33") (unit 1)
+          (reference "SW36") (unit 1)
         )
       )
     )
@@ -1872,7 +1978,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 123.19 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18e4b3cc-a07e-4735-834b-3be44589dc07)
-    (property "Reference" "SW19" (at 124.0282 123.8758 0)
+    (property "Reference" "SW22" (at 124.0282 123.8758 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 124.0282 125.7554 0)
@@ -1889,7 +1995,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW19") (unit 1)
+          (reference "SW22") (unit 1)
         )
       )
     )
@@ -1924,7 +2030,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 114.3 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19fde6f8-4d0c-41bf-ac29-08b1160fcf10)
-    (property "Reference" "SW18" (at 115.1382 123.8758 0)
+    (property "Reference" "SW21" (at 115.1382 123.8758 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 115.1382 125.7554 0)
@@ -1941,7 +2047,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW18") (unit 1)
+          (reference "SW21") (unit 1)
         )
       )
     )
@@ -1950,7 +2056,7 @@
   (symbol (lib_id "Device:D_Small") (at 113.03 185.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ace4be1-d5ea-4a1d-a46f-39384d7410c2)
-    (property "Reference" "D33" (at 114.7572 184.2516 90)
+    (property "Reference" "D36" (at 114.7572 184.2516 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 114.7572 186.563 90)
@@ -1967,7 +2073,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D33") (unit 1)
+          (reference "D36") (unit 1)
         )
       )
     )
@@ -1976,7 +2082,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 71.12 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ebb7e68-6419-47de-8cbd-b3713afe69ab)
-    (property "Reference" "SW17" (at 71.9582 75.6158 0)
+    (property "Reference" "SW20" (at 71.9582 75.6158 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 71.9582 77.4954 0)
@@ -1993,7 +2099,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW17") (unit 1)
+          (reference "SW20") (unit 1)
         )
       )
     )
@@ -2002,7 +2108,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 125.73 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ed21d78-d588-405d-9738-72792f1c70cb)
-    (property "Reference" "RSW0" (at 125.73 75.311 0)
+    (property "Reference" "RSW1" (at 125.73 75.311 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 125.73 77.6224 0)
@@ -2019,7 +2125,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "RSW0") (unit 1)
+          (reference "RSW1") (unit 1)
         )
       )
     )
@@ -2028,7 +2134,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 132.08 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 208179af-b34b-4f46-bc58-bebd09a977b0)
-    (property "Reference" "SW25" (at 132.9182 140.3858 0)
+    (property "Reference" "SW28" (at 132.9182 140.3858 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 132.9182 142.2654 0)
@@ -2045,13 +2151,13 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW25") (unit 1)
+          (reference "SW28") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "nice_nano:nice_nano") (at 125.73 43.18 0) (unit 1)
+  (symbol (lib_name "nice_nano_1") (lib_id "nice_nano:nice_nano") (at 125.73 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22166c71-edfc-4617-b73f-3dc820876130)
     (property "Reference" "U1" (at 125.73 19.7261 0)
@@ -2084,9 +2190,6 @@
     (pin "23" (uuid 24541341-3ceb-4537-b262-32bb833b1419))
     (pin "24" (uuid 320d99f6-9560-4e66-ae77-89abd9bc93fe))
     (pin "3" (uuid 9150c1c6-25bf-4be3-859d-c765b1c434ae))
-    (pin "31" (uuid 39ef5438-0564-49da-a958-0cc52477f2d8))
-    (pin "32" (uuid ec72b5b2-263a-4847-8acf-0683617a04cd))
-    (pin "33" (uuid d08cfdde-23ad-4f7f-b9a4-29e97f520be4))
     (pin "4" (uuid 9a8c10ab-a46c-48cb-bcbe-6f322e2dd5d3))
     (pin "5" (uuid a93a0220-3a74-4d83-b864-083770ae0a47))
     (pin "6" (uuid a8214bf9-cb08-4741-94f4-992fe82d5c91))
@@ -2105,7 +2208,7 @@
   (symbol (lib_id "Device:D_Small") (at 130.81 185.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 226e2589-e472-46d8-ad4c-1d6bdee6a71c)
-    (property "Reference" "D35" (at 132.5372 184.2516 90)
+    (property "Reference" "D38" (at 132.5372 184.2516 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 132.5372 186.563 90)
@@ -2122,7 +2225,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D35") (unit 1)
+          (reference "D38") (unit 1)
         )
       )
     )
@@ -2131,7 +2234,7 @@
   (symbol (lib_id "Device:D_Small") (at 113.03 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 285ec287-6a5a-4ff8-89fb-1547a1671b52)
-    (property "Reference" "D23" (at 114.7572 151.2316 90)
+    (property "Reference" "D26" (at 114.7572 151.2316 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 114.7572 153.543 90)
@@ -2148,7 +2251,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D23") (unit 1)
+          (reference "D26") (unit 1)
         )
       )
     )
@@ -2157,7 +2260,7 @@
   (symbol (lib_id "Device:D_Small") (at 148.59 185.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2b165d9e-8ff7-403b-ba01-0ad1cb57a226)
-    (property "Reference" "D37" (at 150.3172 184.2516 90)
+    (property "Reference" "D40" (at 150.3172 184.2516 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 150.3172 186.563 90)
@@ -2174,7 +2277,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D37") (unit 1)
+          (reference "D40") (unit 1)
         )
       )
     )
@@ -2183,7 +2286,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 123.19 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c6b9a46-7a3a-4775-9585-db0373dcf04c)
-    (property "Reference" "SW29" (at 124.0282 156.8958 0)
+    (property "Reference" "SW32" (at 124.0282 156.8958 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 124.0282 158.7754 0)
@@ -2200,7 +2303,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW29") (unit 1)
+          (reference "SW32") (unit 1)
         )
       )
     )
@@ -2235,7 +2338,7 @@
   (symbol (lib_id "Device:D_Small") (at 139.7 185.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3246ce4b-8ea0-42bb-9287-7ec028fce18e)
-    (property "Reference" "D36" (at 141.4272 184.2516 90)
+    (property "Reference" "D39" (at 141.4272 184.2516 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 141.4272 186.563 90)
@@ -2252,7 +2355,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D36") (unit 1)
+          (reference "D39") (unit 1)
         )
       )
     )
@@ -2261,7 +2364,7 @@
   (symbol (lib_id "power:+3.3V") (at 154.94 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35041357-04c5-4c51-8cc6-202c7776feaf)
-    (property "Reference" "#PWR0102" (at 154.94 40.64 0)
+    (property "Reference" "#PWR03" (at 154.94 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 154.94 33.2542 0)
@@ -2277,7 +2380,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2286,7 +2389,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 201.93 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3921fc0d-e37b-496e-a2dc-94330d12dbda)
-    (property "Reference" "SW_POWER1" (at 201.93 117.221 0)
+    (property "Reference" "SW_POWER2" (at 201.93 117.221 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPDT" (at 201.93 119.5324 0)
@@ -2304,7 +2407,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW_POWER1") (unit 1)
+          (reference "SW_POWER2") (unit 1)
         )
       )
     )
@@ -2313,7 +2416,7 @@
   (symbol (lib_id "Device:D_Small") (at 69.85 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b999077-5ac6-4ee4-95fa-dc9f863d70d2)
-    (property "Reference" "D17" (at 71.5772 86.4616 90)
+    (property "Reference" "D20" (at 71.5772 86.4616 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 71.5772 88.773 90)
@@ -2330,7 +2433,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D17") (unit 1)
+          (reference "D20") (unit 1)
         )
       )
     )
@@ -2339,7 +2442,7 @@
   (symbol (lib_id "Device:D_Small") (at 113.03 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3da3e336-00a6-4606-94d0-b6817d6df5d7)
-    (property "Reference" "D18" (at 114.7572 134.7216 90)
+    (property "Reference" "D21" (at 114.7572 134.7216 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 114.7572 137.033 90)
@@ -2356,7 +2459,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D18") (unit 1)
+          (reference "D21") (unit 1)
         )
       )
     )
@@ -2391,7 +2494,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 132.08 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42c6cc29-f666-4052-bee9-bdc3de29da13)
-    (property "Reference" "SW30" (at 132.9182 156.8958 0)
+    (property "Reference" "SW33" (at 132.9182 156.8958 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 132.9182 158.7754 0)
@@ -2408,7 +2511,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW30") (unit 1)
+          (reference "SW33") (unit 1)
         )
       )
     )
@@ -2443,7 +2546,7 @@
   (symbol (lib_id "Device:D_Small") (at 130.81 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48b43820-e5ab-457f-b011-79640d2dfa70)
-    (property "Reference" "D20" (at 132.5372 134.7216 90)
+    (property "Reference" "D23" (at 132.5372 134.7216 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 132.5372 137.033 90)
@@ -2460,7 +2563,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D20") (unit 1)
+          (reference "D23") (unit 1)
         )
       )
     )
@@ -2498,7 +2601,7 @@
   (symbol (lib_id "Device:D_Small") (at 148.59 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49b73e23-4773-471c-af34-e881cc2b199a)
-    (property "Reference" "D32" (at 150.3172 167.7416 90)
+    (property "Reference" "D35" (at 150.3172 167.7416 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 150.3172 170.053 90)
@@ -2515,7 +2618,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D32") (unit 1)
+          (reference "D35") (unit 1)
         )
       )
     )
@@ -2524,7 +2627,7 @@
   (symbol (lib_id "Device:D_Small") (at 148.59 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b83dd6f-4ada-4902-8d51-1b3a952f6065)
-    (property "Reference" "D27" (at 150.3172 151.2316 90)
+    (property "Reference" "D30" (at 150.3172 151.2316 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 150.3172 153.543 90)
@@ -2541,7 +2644,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D27") (unit 1)
+          (reference "D30") (unit 1)
         )
       )
     )
@@ -2576,7 +2679,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 123.19 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50f13fff-8dc2-4888-a26d-969c5307530b)
-    (property "Reference" "SW24" (at 124.0282 140.3858 0)
+    (property "Reference" "SW27" (at 124.0282 140.3858 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 124.0282 142.2654 0)
@@ -2593,7 +2696,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW24") (unit 1)
+          (reference "SW27") (unit 1)
         )
       )
     )
@@ -2602,7 +2705,7 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 201.93 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 527e5467-04a2-48e0-afae-f95895b2f459)
-    (property "Reference" "SW_POWER0" (at 201.93 27.051 0)
+    (property "Reference" "SW_POWER1" (at 201.93 27.051 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_SPDT" (at 201.93 29.3624 0)
@@ -2620,7 +2723,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW_POWER0") (unit 1)
+          (reference "SW_POWER1") (unit 1)
         )
       )
     )
@@ -2655,7 +2758,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 140.97 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58c1c8b8-aca5-4957-8089-d6658d3eb0aa)
-    (property "Reference" "SW26" (at 141.8082 140.3858 0)
+    (property "Reference" "SW29" (at 141.8082 140.3858 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 141.8082 142.2654 0)
@@ -2672,7 +2775,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW26") (unit 1)
+          (reference "SW29") (unit 1)
         )
       )
     )
@@ -2759,7 +2862,7 @@
   (symbol (lib_id "Device:D_Small") (at 130.81 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6b1479d0-6590-4f5f-b1be-1d4334520442)
-    (property "Reference" "D30" (at 132.5372 167.7416 90)
+    (property "Reference" "D33" (at 132.5372 167.7416 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 132.5372 170.053 90)
@@ -2776,7 +2879,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D30") (unit 1)
+          (reference "D33") (unit 1)
         )
       )
     )
@@ -2785,7 +2888,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 46.99 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cd04342-960f-4f76-b976-90eb852725e1)
-    (property "Reference" "RSW1" (at 46.99 176.911 0)
+    (property "Reference" "RSW2" (at 46.99 176.911 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_Push" (at 46.99 179.2224 0)
@@ -2802,7 +2905,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "RSW1") (unit 1)
+          (reference "RSW2") (unit 1)
         )
       )
     )
@@ -2811,7 +2914,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 35.56 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e57e56f-7412-45d3-b1f0-89ab72c0f291)
-    (property "Reference" "SW38" (at 36.3982 75.6158 0)
+    (property "Reference" "SW16" (at 36.3982 75.6158 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 36.3982 77.4954 0)
@@ -2828,7 +2931,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW38") (unit 1)
+          (reference "SW16") (unit 1)
         )
       )
     )
@@ -2837,7 +2940,7 @@
   (symbol (lib_id "Device:D_Small") (at 130.81 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f2d898c-eba3-4f82-8770-5becf6ffbf26)
-    (property "Reference" "D25" (at 132.5372 151.2316 90)
+    (property "Reference" "D28" (at 132.5372 151.2316 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 132.5372 153.543 90)
@@ -2854,7 +2957,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D25") (unit 1)
+          (reference "D28") (unit 1)
         )
       )
     )
@@ -2863,7 +2966,7 @@
   (symbol (lib_id "Device:D_Small") (at 113.03 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 734d44ca-2717-42db-baa0-fe6c4d5ba540)
-    (property "Reference" "D28" (at 114.7572 167.7416 90)
+    (property "Reference" "D31" (at 114.7572 167.7416 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 114.7572 170.053 90)
@@ -2880,7 +2983,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D28") (unit 1)
+          (reference "D31") (unit 1)
         )
       )
     )
@@ -2889,7 +2992,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 222.25 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74f67945-5d10-42d7-aa8a-22ea30c6a090)
-    (property "Reference" "BatGND1" (at 224.79 129.5654 0)
+    (property "Reference" "BatGND2" (at 224.79 129.5654 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 224.79 131.8768 0)
@@ -2905,7 +3008,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "BatGND1") (unit 1)
+          (reference "BatGND2") (unit 1)
         )
       )
     )
@@ -2940,7 +3043,7 @@
   (symbol (lib_id "power:+3.3V") (at 158.75 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c9cb962-d687-4d56-a8cb-aff45311907f)
-    (property "Reference" "#PWR0104" (at 158.75 82.55 0)
+    (property "Reference" "#PWR05" (at 158.75 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 158.75 75.1642 0)
@@ -2956,7 +3059,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2965,7 +3068,7 @@
   (symbol (lib_id "Device:D_Small") (at 43.18 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cd4c248-0c26-44aa-abb6-52a4a6b8e016)
-    (property "Reference" "D39" (at 44.9072 86.4616 90)
+    (property "Reference" "D17" (at 44.9072 86.4616 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 44.9072 88.773 90)
@@ -2982,7 +3085,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D39") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
     )
@@ -3046,7 +3149,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 132.08 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8565124a-7163-4ced-8b14-240736be31d9)
-    (property "Reference" "SW35" (at 132.9182 173.4058 0)
+    (property "Reference" "SW38" (at 132.9182 173.4058 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 132.9182 175.2854 0)
@@ -3063,7 +3166,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW35") (unit 1)
+          (reference "SW38") (unit 1)
         )
       )
     )
@@ -3072,7 +3175,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 140.97 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 860f2e65-761c-4c5b-9c09-ebe4167b3afa)
-    (property "Reference" "SW31" (at 141.8082 156.8958 0)
+    (property "Reference" "SW34" (at 141.8082 156.8958 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 141.8082 158.7754 0)
@@ -3089,7 +3192,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW31") (unit 1)
+          (reference "SW34") (unit 1)
         )
       )
     )
@@ -3124,7 +3227,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 220.98 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89ae54d7-dde4-46ef-8b72-def21ac9e6b7)
-    (property "Reference" "BatGND0" (at 223.52 38.1254 0)
+    (property "Reference" "BatGND1" (at 223.52 38.1254 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 223.52 40.4368 0)
@@ -3140,7 +3243,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "BatGND0") (unit 1)
+          (reference "BatGND1") (unit 1)
         )
       )
     )
@@ -3149,7 +3252,7 @@
   (symbol (lib_id "power:GND") (at 97.79 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c46a270-ece3-4d22-a25c-6f85a7699d4a)
-    (property "Reference" "#PWR0106" (at 97.79 41.91 0)
+    (property "Reference" "#PWR02" (at 97.79 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 40.0034 0)
@@ -3165,7 +3268,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3174,7 +3277,7 @@
   (symbol (lib_id "Device:D_Small") (at 34.29 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8da9bd42-bc63-4b2c-a1ba-3fc4df51f0d4)
-    (property "Reference" "D38" (at 36.0172 86.4616 90)
+    (property "Reference" "D16" (at 36.0172 86.4616 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 36.0172 88.773 90)
@@ -3191,7 +3294,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D38") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -3278,7 +3381,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 62.23 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97d3acd0-088f-4796-85e1-0494aa8da391)
-    (property "Reference" "SW16" (at 63.0682 75.6158 0)
+    (property "Reference" "SW19" (at 63.0682 75.6158 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 63.0682 77.4954 0)
@@ -3295,7 +3398,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW16") (unit 1)
+          (reference "SW19") (unit 1)
         )
       )
     )
@@ -3330,7 +3433,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 114.3 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a9c5007-bbec-461f-a5ec-a13859829367)
-    (property "Reference" "SW23" (at 115.1382 140.3858 0)
+    (property "Reference" "SW26" (at 115.1382 140.3858 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 115.1382 142.2654 0)
@@ -3347,7 +3450,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW23") (unit 1)
+          (reference "SW26") (unit 1)
         )
       )
     )
@@ -3386,9 +3489,6 @@
     (pin "23" (uuid d724139a-6044-4e86-85be-8c4c5aa15435))
     (pin "24" (uuid 3867d4a2-f6c7-476c-a7be-97827372aba5))
     (pin "3" (uuid 0f3d031a-65eb-42a2-acc9-8fce4e88505c))
-    (pin "31" (uuid ce3bb4d4-9321-4001-bc2d-9e4427109bf3))
-    (pin "32" (uuid 4c8bbde3-4181-4486-871e-91a7a10e0596))
-    (pin "33" (uuid e5d8f5c5-9088-449b-a040-725670169243))
     (pin "4" (uuid 08508114-a8bf-4055-a758-0a4b96a9abf9))
     (pin "5" (uuid db906b81-122a-42dc-b8b3-3662c618bad9))
     (pin "6" (uuid a8ea9870-6f43-451b-a0ad-e640ee68b3dd))
@@ -3407,7 +3507,7 @@
   (symbol (lib_id "Device:D_Small") (at 121.92 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fb93c4d-c11e-45d9-b29e-3d797de14154)
-    (property "Reference" "D19" (at 123.6472 134.7216 90)
+    (property "Reference" "D22" (at 123.6472 134.7216 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 123.6472 137.033 90)
@@ -3424,7 +3524,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D19") (unit 1)
+          (reference "D22") (unit 1)
         )
       )
     )
@@ -3433,7 +3533,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 149.86 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2f7316f-a457-4da4-ad03-528b4f1a55b5)
-    (property "Reference" "SW27" (at 150.6982 140.3858 0)
+    (property "Reference" "SW30" (at 150.6982 140.3858 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 150.6982 142.2654 0)
@@ -3450,7 +3550,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW27") (unit 1)
+          (reference "SW30") (unit 1)
         )
       )
     )
@@ -3459,7 +3559,7 @@
   (symbol (lib_id "Device:D_Small") (at 121.92 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a39db02b-452e-4720-baa2-5095f37fa2b2)
-    (property "Reference" "D24" (at 123.6472 151.2316 90)
+    (property "Reference" "D27" (at 123.6472 151.2316 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 123.6472 153.543 90)
@@ -3476,7 +3576,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D24") (unit 1)
+          (reference "D27") (unit 1)
         )
       )
     )
@@ -3485,7 +3585,7 @@
   (symbol (lib_id "Device:D_Small") (at 121.92 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a602d4cf-5cdd-4f95-ba7f-4a02f3c78758)
-    (property "Reference" "D29" (at 123.6472 167.7416 90)
+    (property "Reference" "D32" (at 123.6472 167.7416 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 123.6472 170.053 90)
@@ -3502,7 +3602,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D29") (unit 1)
+          (reference "D32") (unit 1)
         )
       )
     )
@@ -3511,7 +3611,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 44.45 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abeef345-0e23-49e9-ac60-9c3863423043)
-    (property "Reference" "SW39" (at 45.2882 75.6158 0)
+    (property "Reference" "SW17" (at 45.2882 75.6158 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 45.2882 77.4954 0)
@@ -3528,7 +3628,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW39") (unit 1)
+          (reference "SW17") (unit 1)
         )
       )
     )
@@ -3563,7 +3663,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 123.19 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb77e868-2200-4518-b4dd-3dc8b60c57af)
-    (property "Reference" "SW34" (at 124.0282 173.4058 0)
+    (property "Reference" "SW37" (at 124.0282 173.4058 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 124.0282 175.2854 0)
@@ -3580,7 +3680,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW34") (unit 1)
+          (reference "SW37") (unit 1)
         )
       )
     )
@@ -3589,7 +3689,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 149.86 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0f78318-c6dd-40a5-b853-84809158fe66)
-    (property "Reference" "SW37" (at 150.6982 173.4058 0)
+    (property "Reference" "SW40" (at 150.6982 173.4058 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 150.6982 175.2854 0)
@@ -3606,7 +3706,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW37") (unit 1)
+          (reference "SW40") (unit 1)
         )
       )
     )
@@ -3641,7 +3741,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 222.25 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c601c4d8-ddc1-4d76-945a-d21dc79ce24d)
-    (property "Reference" "Bat+1" (at 224.79 119.4054 0)
+    (property "Reference" "Bat+2" (at 224.79 119.4054 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 224.79 121.7168 0)
@@ -3657,7 +3757,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "Bat+1") (unit 1)
+          (reference "Bat+2") (unit 1)
         )
       )
     )
@@ -3666,7 +3766,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 220.98 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7251553-9ce6-4170-8890-5f537451af60)
-    (property "Reference" "Bat+0" (at 223.52 27.9654 0)
+    (property "Reference" "Bat+1" (at 223.52 27.9654 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 223.52 30.2768 0)
@@ -3682,7 +3782,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "Bat+0") (unit 1)
+          (reference "Bat+1") (unit 1)
         )
       )
     )
@@ -3691,7 +3791,7 @@
   (symbol (lib_id "Device:D_Small") (at 148.59 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c772d37f-a4b0-4690-917c-304b5e565932)
-    (property "Reference" "D22" (at 150.3172 134.7216 90)
+    (property "Reference" "D25" (at 150.3172 134.7216 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 150.3172 137.033 90)
@@ -3708,7 +3808,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D22") (unit 1)
+          (reference "D25") (unit 1)
         )
       )
     )
@@ -3743,7 +3843,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 140.97 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c8f0481b-2497-49c1-acce-08695be4b922)
-    (property "Reference" "SW21" (at 141.8082 123.8758 0)
+    (property "Reference" "SW24" (at 141.8082 123.8758 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 141.8082 125.7554 0)
@@ -3760,7 +3860,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW21") (unit 1)
+          (reference "SW24") (unit 1)
         )
       )
     )
@@ -3821,7 +3921,7 @@
   (symbol (lib_id "Device:D_Small") (at 121.92 185.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce8b2b09-aa3c-4448-bebd-c6eb604147e8)
-    (property "Reference" "D34" (at 123.6472 184.2516 90)
+    (property "Reference" "D37" (at 123.6472 184.2516 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 123.6472 186.563 90)
@@ -3838,7 +3938,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D34") (unit 1)
+          (reference "D37") (unit 1)
         )
       )
     )
@@ -3847,7 +3947,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 149.86 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cf8cc217-c4ca-4f63-b859-2e93aaa75c1a)
-    (property "Reference" "SW22" (at 150.6982 123.8758 0)
+    (property "Reference" "SW25" (at 150.6982 123.8758 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 150.6982 125.7554 0)
@@ -3864,7 +3964,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW22") (unit 1)
+          (reference "SW25") (unit 1)
         )
       )
     )
@@ -3899,7 +3999,7 @@
   (symbol (lib_id "power:GND") (at 160.02 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4662440-f556-4e71-87b4-a28d6e8690b9)
-    (property "Reference" "#PWR0101" (at 160.02 38.1 0)
+    (property "Reference" "#PWR01" (at 160.02 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 36.1934 0)
@@ -3915,7 +4015,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -4002,7 +4102,7 @@
   (symbol (lib_id "Device:D_Small") (at 60.96 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dcf5b53d-4ac8-4c0e-aa33-d25b58ae8212)
-    (property "Reference" "D16" (at 62.6872 86.4616 90)
+    (property "Reference" "D19" (at 62.6872 86.4616 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 62.6872 88.773 90)
@@ -4019,7 +4119,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D16") (unit 1)
+          (reference "D19") (unit 1)
         )
       )
     )
@@ -4054,7 +4154,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 132.08 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e396a07d-387f-4371-b417-42d2430acecc)
-    (property "Reference" "SW20" (at 132.9182 123.8758 0)
+    (property "Reference" "SW23" (at 132.9182 123.8758 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 132.9182 125.7554 0)
@@ -4071,7 +4171,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW20") (unit 1)
+          (reference "SW23") (unit 1)
         )
       )
     )
@@ -4106,7 +4206,7 @@
   (symbol (lib_id "Device:D_Small") (at 52.07 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e72295be-67a4-42d7-9860-09b454271bb5)
-    (property "Reference" "D40" (at 53.7972 86.4616 90)
+    (property "Reference" "D18" (at 53.7972 86.4616 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 53.7972 88.773 90)
@@ -4123,7 +4223,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D40") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
     )
@@ -4132,7 +4232,7 @@
   (symbol (lib_id "power:GND") (at 165.1 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eaccc8d8-b4f7-4ff7-a9a2-5b6b28dc4320)
-    (property "Reference" "#PWR0105" (at 165.1 81.28 0)
+    (property "Reference" "#PWR04" (at 165.1 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 79.3734 0)
@@ -4148,7 +4248,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4157,7 +4257,7 @@
   (symbol (lib_id "Device:D_Small") (at 139.7 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eced4df9-5573-4804-bf0e-11f01367e451)
-    (property "Reference" "D31" (at 141.4272 167.7416 90)
+    (property "Reference" "D34" (at 141.4272 167.7416 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 141.4272 170.053 90)
@@ -4174,7 +4274,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D31") (unit 1)
+          (reference "D34") (unit 1)
         )
       )
     )
@@ -4183,7 +4283,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 114.3 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3c6ade4-09cd-446e-a170-0caec5b1ef71)
-    (property "Reference" "SW28" (at 115.1382 156.8958 0)
+    (property "Reference" "SW31" (at 115.1382 156.8958 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 115.1382 158.7754 0)
@@ -4200,7 +4300,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW28") (unit 1)
+          (reference "SW31") (unit 1)
         )
       )
     )
@@ -4209,7 +4309,7 @@
   (symbol (lib_id "Device:D_Small") (at 139.7 152.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4d8db17-bfd6-482a-ac2c-3271223019a6)
-    (property "Reference" "D26" (at 141.4272 151.2316 90)
+    (property "Reference" "D29" (at 141.4272 151.2316 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "diode" (at 141.4272 153.543 90)
@@ -4226,7 +4326,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "D26") (unit 1)
+          (reference "D29") (unit 1)
         )
       )
     )
@@ -4235,7 +4335,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 140.97 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f66d29e2-13a5-4439-b8db-3205ac4b69da)
-    (property "Reference" "SW36" (at 141.8082 173.4058 0)
+    (property "Reference" "SW39" (at 141.8082 173.4058 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "Kailh-Choc" (at 141.8082 175.2854 0)
@@ -4252,7 +4352,7 @@
     (instances
       (project "main"
         (path "/628ac4d5-36ec-4532-ae41-3d8ecd77c045"
-          (reference "SW36") (unit 1)
+          (reference "SW39") (unit 1)
         )
       )
     )
