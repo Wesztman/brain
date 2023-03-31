@@ -13,7 +13,7 @@
   <a href="https://github.com/duckyb/urchin">
     <img src="https://img.shields.io/badge/based%20on-urchin-orange">
   </a>
-  <a href="https://github.com/duckyb/urchin](https://github.com/Wesztman/brain/blob/main/LICENSE">
+  <a href="https://github.com/Wesztman/brain/blob/main/LICENSE">
     <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=success&style=flat-square">
   </a>
 </span>
