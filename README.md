@@ -3,7 +3,6 @@
 TODO
 Prio 1
 - Move repo to real fork of urchin repo.
-- Change back text.
 
 ![PCB Preview](./gallery/main/main-top.png)
 ![PCB Preview](./gallery/main/main-bottom.png)
@@ -75,3 +74,4 @@ TODO: Update
 - Silkscreen labels style: [bastardkb/dilemma](https://github.com/Bastardkb/Dilemma)
 - 3d case by [iamDrakkir](https://github.com/iamDrakkir)
 - 3d case by [chewiedies](https://www.printables.com/it/social/360738-chewiedies/about)
+- Logo Credit
