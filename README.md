@@ -4,14 +4,18 @@
 ![PCB Preview](./gallery/main/main-bottom.png)
 
 <span>
-  <img src="https://img.shields.io/github/last-commit/Wesztman/brain?style=flat-square">
+  <a href="https://github.com/Wesztman/brain/commits/main">
+    <img src="https://img.shields.io/github/last-commit/Wesztman/brain?style=flat-square">
+  </a>
   <a href="https://github.com/Wesztman/brain/releases">
     <img src="https://img.shields.io/github/v/release/wesztman/brain">
   </a>
   <a href="https://github.com/duckyb/urchin">
     <img src="https://img.shields.io/badge/based%20on-urchin-orange">
   </a>
-  <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=success&style=flat-square">
+  <a href="https://github.com/duckyb/urchin](https://github.com/Wesztman/brain/blob/main/LICENSE">
+    <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=success&style=flat-square">
+  </a>
 </span>
 
 My first ever keyboard build was the Ferris Sweep, it's a wonderful keyboard! But I missed a few keys, the ctrl and shift keys on the left side and since I'm Swedish, I also wanted keys for åäö. Apart from this I was also only interested in wireless designs and was not interested in the TRRS jacks etc. The Urchin was the perfect solution for me, but I were still missing those oh so sought after keys. So I decided to make my own version of the Urchin, with a few extra keys and a little tweek to the edge cut to fit them nicely.
