@@ -6,8 +6,10 @@
 <span>
   <img src="https://img.shields.io/github/last-commit/Wesztman/brain?style=flat-square">
   <a href="https://github.com/Wesztman/brain/releases">
-    <img src="https://img.shields.io/github/v/release/Wesztman/brain?include_prereleases&color=success&style=flat-square">
-    <img src="https://img.shields.io/github/downloads/Wesztman/brain/total?color=success&style=flat-square">
+    <img src="https://img.shields.io/github/v/release/wesztman/brain">
+  </a>
+  <a href="https://github.com/duckyb/urchin">
+    <img src="https://img.shields.io/badge/based%20on-urchin-orange">
   </a>
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=success&style=flat-square">
 </span>
