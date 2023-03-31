@@ -1,9 +1,5 @@
 # Brain (based on [Urchin by Duckyb](https://github.com/duckyb/urchin))
 
-TODO
-Prio 1
-- Move repo to real fork of urchin repo.
-
 ![PCB Preview](./gallery/main/main-top.png)
 ![PCB Preview](./gallery/main/main-bottom.png)
 
