@@ -2,7 +2,6 @@
 
 TODO
 Prio 1
-- Check that everything is connected.
 - Move repo to real fork of urchin repo.
 - Change back text.
 
