@@ -49,7 +49,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
         "copper_edge_clearance|220416793|31545567|fffd78a7-9c16-41a1-8741-9e7d954d885d|dd1b3273-259f-44e9-9384-2b358d4565c6"
       ],
@@ -70,7 +76,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_type_mismatch": "error",
-        "hole_clearance": "ignore",
+        "hole_clearance": "error",
         "hole_near_hole": "ignore",
         "invalid_outline": "error",
         "isolated_copper": "ignore",
@@ -170,8 +176,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
