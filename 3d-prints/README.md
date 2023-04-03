@@ -6,7 +6,7 @@ The case is specifically designed to be used with a foam layer between the PCB a
 
 | Top | Side |
 | --- | ---  |
-| ![](../../gallery/case/top.png) | ![](../../gallery/case/side.png) |
+| ![](../gallery/case/top.png) | ![](../gallery/case/side.png) |
 
 ## Design
 
