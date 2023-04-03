@@ -29,10 +29,10 @@ The result of this is the Brain, a wireless split keyboard based on the Urchin w
 - [x] Original pinky column lowered 2mm.
 - [x] A new pinky column added with two buttons, also 2mm offset down from its neighbour.
 - [x] One new thumb button added.
+- [x] Add 3D printed case.
 
 ## Coming soon
 
-- [ ] Add 3D printed case.
 - [ ] Add travel case.
 
 ## Part list (for both sides)
@@ -54,7 +54,7 @@ The result of this is the Brain, a wireless split keyboard based on the Urchin w
 - 2× nice!view (needs higher sockets to get level above raised mill-max sockets, TODO add exact ones)
 - 2× Reset switch (B3U-1000P(M))
 - 2× Power switch (MSK 12C02)
-- 10× adhesive silicone feet
+- 16× adhesive silicone feet
 
 ## How do I make this?
 

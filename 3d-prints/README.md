@@ -1,6 +1,6 @@
 # 3D Print case for the brain
 
-The case is specifically designed to be used with a foam layer between the PCB and the case for additional cushioning and to reduce the noise of the switches.
+The case is specifically designed to be used with a foam layer between the PCB and the case for additional cushioning and to reduce the noise of the switches. Additionally, the case includes 8x rubber feet holes to provide additional stability and prevent the case from sliding around during use.
 
 ## Preview
 
@@ -18,6 +18,3 @@ The design is split into two parts, one for each half of the split keyboard. The
 
 TODO
 
-##  Contributing
-
-Fee free to modify the design to suit your needs and share your modifications with the community.
