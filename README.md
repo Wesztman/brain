@@ -1,5 +1,3 @@
-**NOTE:** Moved to seperate repo https://github.com/Wesztman/brain since it was not supposed to be merged back to the urchin repo.
-
 # Brain (based on [Urchin by Duckyb](https://github.com/duckyb/urchin))
 
 ![PCB Preview](./gallery/main/main-top.png)
