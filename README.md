@@ -5,7 +5,7 @@
 
 <span>
   <a href="https://github.com/Wesztman/brain/commits/main">
-    <img src="https://img.shields.io/github/last-commit/Wesztman/brain?style=flat-square">
+    <img src="https://img.shields.io/github/last-commit/Wesztman/brain">
   </a>
   <a href="https://github.com/Wesztman/brain/releases">
     <img src="https://img.shields.io/github/v/release/wesztman/brain">
