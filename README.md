@@ -38,7 +38,7 @@ The result of this is the Brain, a wireless split keyboard based on the Urchin w
 
 ## Feature requests for 2.0
 
-- [ ] Raise last pinky column, maybe as much as 7-8 mm.
+- [ ] Raise last pinky column, maybe as much as 7-8 mm. For easier access to both the keys and not only the top one.
 - [ ] Add back the fourth hole for tenting puck.
 
 ## Part list (for both sides)
