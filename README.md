@@ -34,6 +34,7 @@ The result of this is the Brain, a wireless split keyboard based on the Urchin w
 ## Coming soon
 
 - [ ] Add travel case.
+- [ ] Add zmk code with base settings.
 
 ## Feature requests for 2.0
 
