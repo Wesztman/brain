@@ -35,6 +35,11 @@ The result of this is the Brain, a wireless split keyboard based on the Urchin w
 
 - [ ] Add travel case.
 
+## Feature requests for 2.0
+
+- [ ] Raise last pinky column, maybe as much as 7-8 mm.
+- [ ] Add back the fourth hole for tenting puck.
+
 ## Part list (for both sides)
 
 #### Required
