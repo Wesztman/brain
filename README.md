@@ -74,15 +74,14 @@ Follow the the excellent build guide in the link below. The only difference is t
 
 Brain supports ZMK only.
 
-I have not managed to get a dedicated ZMK firmware for this keyboard set up yet.
-
-Until I do, you can probably get something going based on the [zmk-urchin repository](https://github.com/duckyb/zmk-urchin). But since this keyboard has 3 extra keys added to the original Urchin, you will need to add those keys to the firmware.
+Firmware can be found [here](https://github.com/iamDrakkir/zmk-config).
 
 ## Credits
 
 - Urchin by [duckyb](https://github.com/duckyb/urchin)
 - Logo by [Ariyanto Deni](https://thenounproject.com/ariyantodeni/)
 - 3D case by [iamDrakkir](https://github.com/iamDrakkir)
+- ZMK Firmware [iamDrakkir](https://github.com/iamDrakkir)
 
 ## License
 [MIT](https://github.com/Wesztman/brain/blob/main/LICENSE)
