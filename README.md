@@ -74,7 +74,9 @@ Follow the the excellent build guide in the link below. The only difference is t
 
 Brain supports ZMK only.
 
-Firmware can be found [here](https://github.com/iamDrakkir/zmk-config).
+Firmware is provided by the lovely [iamDrakkir](https://github.com/iamDrakkir) and can be found in his [zmk-config](https://github.com/iamDrakkir/zmk-config) repo.
+
+My personal fork can be found [here](https://github.com/Wesztman/zmk-config?organization=Wesztman&organization=Wesztman) if it's of interest for anyone.
 
 ## Credits
 
