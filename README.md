@@ -29,7 +29,7 @@ The result of this is the Brain, a wireless split keyboard based on the Urchin w
 - [x] Original pinky column lowered 2mm.
 - [x] A new pinky column added with two buttons, also 2mm offset down from its neighbour.
 - [x] One new thumb button added.
-- [x] Add 3D printed case.
+
 
 ## Coming soon
 
