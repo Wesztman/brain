@@ -79,6 +79,16 @@ Firmware is provided by the lovely [iamDrakkir](https://github.com/iamDrakkir) a
 
 My personal fork can be found [here](https://github.com/Wesztman/zmk-config?organization=Wesztman&organization=Wesztman) if it's of interest for anyone.
 
+## 3D Printed Cases
+
+| Top | Side |
+| --- | ---  |
+| ![](./gallery/case/top.png) | ![](./gallery/case/side.png) |
+
+| Closed | Open |
+| --- | ---  |
+| ![](./gallery/travel-case/brain-travel-case-full.png) | ![](./gallery/travel-case/brain-travel-case-open.png) |
+
 ## Credits
 
 - Urchin by [duckyb](https://github.com/duckyb/urchin)

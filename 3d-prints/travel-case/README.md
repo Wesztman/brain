@@ -12,7 +12,7 @@ The travel case is designed in two parts and are connected with print in place m
 
 The design is split into two parts and are connected with print-in-place magnets. Meaning that the print is paused at a certain height and the magnets are inserted into the print. The print is then resumed and the magnets are encased in the print. The magnets used are 6x3mm neodymium magnets.
 
-[Onshape design](https://cad.onshape.com/documents/ca702f1514417f775ac77674/w/a5f5f447b02d600e7c1a381b/e/59998fea22245e9ac184edc3?renderMode=0&uiState=6429dd2270aad826e190cf0d)
+[Onshape design](https://cad.onshape.com/documents/a8c7393d87d948afba2c6e43/w/ea731c1d3c5cb85e11790472/e/4dde8ed377b236e8ab6f5f7d?renderMode=0&uiState=648cb0194527e13c17574a58)
 
 ## Printing
 
