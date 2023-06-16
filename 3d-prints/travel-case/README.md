@@ -1,6 +1,6 @@
 # 3D printed travel case for the Brain
 
-The travel case is designed in two parts and are connected with print in place magnets.
+The travel case is designed in two parts and are connected with print in place magnets. The inside is designed to fit the Brain with the [3d printed case](../case/README.md). The lid snaps into place in an utterly satisfying way.
 
 ## Preview
 
