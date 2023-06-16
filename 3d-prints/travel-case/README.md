@@ -1,6 +1,6 @@
 # 3D printed travel case for the Brain
 
-> **Note**
+> **Warning**
 > This design is not tested with the nice!view since those has been hard to come by lately. When I get some nice!views I will add a design which works 100% with those. 😊
 
 The travel case is designed in two parts and are connected with print in place magnets. The inside is designed to fit the Brain with the [3d printed case](../case/README.md). The lid snaps into place in an utterly satisfying way.
