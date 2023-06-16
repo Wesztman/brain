@@ -31,12 +31,6 @@ The result of this is the Brain, a wireless split keyboard based on the Urchin w
 - [x] One new thumb button added.
 - [x] Holes that fit [Corne Acrylic cover](https://kriscables.com/product/corne-oled-cover-plate/) for nice!view.
 
-
-## Coming soon
-
-- [ ] Add travel case.
-- [ ] Add ZMK code with base settings in this repo.
-
 ## Feature requests for 2.0
 
 - [ ] Raise last pinky column, maybe as much as 7-8 mm. For easier access to both the keys and not only the top one.
