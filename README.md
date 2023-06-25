@@ -35,6 +35,7 @@ The result of this is the Brain, a wireless split keyboard based on the Urchin w
 
 - [ ] Raise last pinky column, maybe as much as 7-8 mm. For easier access to both the keys and not only the top one.
 - [ ] Add back the fourth hole for tenting puck.
+- [ ] Rotate the diode for switch 17, it's reversed now which causes confusion.
 
 ## Part list (for both sides)
 
@@ -60,6 +61,8 @@ The result of this is the Brain, a wireless split keyboard based on the Urchin w
 ## How do I make this?
 
 Follow the the excellent build guide in the link below. The only difference is the 3 extra keys on each side.
+
+Note that diodes should only be mounted on the "BOTTOM" side of the PCBs.
 
 <a href="https://youtu.be/CHSh1-dJq24" target="_blank">
 <img src="https://gist.githubusercontent.com/duckyb/337340baa1f0c8bcc06fef7b3b57242b/raw/97e6e0748dd1b8a3fb54fac0a88e84e6b6e0e10a/build-guide-button.svg" height="44">
