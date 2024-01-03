@@ -93,5 +93,9 @@ My personal fork can be found [here](https://github.com/Wesztman/zmk-config?orga
 - 3D case by [iamDrakkir](https://github.com/iamDrakkir)
 - ZMK Firmware [iamDrakkir](https://github.com/iamDrakkir)
 
+## Featured In
+
+- [KBD Issue #122](https://kbd.news/Brain-2014.html)
+
 ## License
 [MIT](https://github.com/Wesztman/brain/blob/main/LICENSE)
