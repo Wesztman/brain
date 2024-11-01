@@ -72,7 +72,7 @@ Note that diodes should only be mounted on the "BOTTOM" side of the PCBs.
 
 Brain supports ZMK only.
 
-Firmware is provided by the lovely [iamDrakkir](https://github.com/iamDrakkir) and can be found in his [zmk-config](https://github.com/iamDrakkir/zmk-config) repo.
+Firmware is provided by the lovely [iamDrakkir](https://github.com/iamDrakkir) and can be found in his [zmk-brain](https://github.com/iamDrakkir/zmk-brain) repo.
 
 My personal fork can be found [here](https://github.com/Wesztman/zmk-config?organization=Wesztman&organization=Wesztman) if it's of interest for anyone.
 
