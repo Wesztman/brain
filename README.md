@@ -100,8 +100,6 @@ My personal fork can be found [here](https://github.com/Wesztman/zmk-config?orga
 ## License
 [MIT](https://github.com/Wesztman/brain/blob/main/LICENSE)
 
-## Star History
-
 <a href="https://star-history.com/#Wesztman/brain&Date">
  <picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Wesztman/brain&type=Date&theme=dark" />
