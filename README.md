@@ -99,3 +99,7 @@ My personal fork can be found [here](https://github.com/Wesztman/zmk-config?orga
 
 ## License
 [MIT](https://github.com/Wesztman/brain/blob/main/LICENSE)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Wesztman/brain&type=Date)](https://star-history.com/#Wesztman/brain&Date)
