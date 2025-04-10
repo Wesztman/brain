@@ -1,5 +1,7 @@
 # Brain (based on [Urchin by Duckyb](https://github.com/duckyb/urchin))
 
+![Built](./gallery/built/brain-yellow.png)
+
 ![PCB Preview](./gallery/main/main-top.png)
 ![PCB Preview](./gallery/main/main-bottom.png)
 
