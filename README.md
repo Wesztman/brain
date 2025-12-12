@@ -79,7 +79,7 @@ Brain supports ZMK only.
 
 Firmware is provided by the lovely [iamDrakkir](https://github.com/iamDrakkir) and can be found in his [zmk-brain](https://github.com/iamDrakkir/zmk-brain) repo.
 
-My personal fork can be found [here](https://github.com/Wesztman/zmk-config?organization=Wesztman&organization=Wesztman) if it's of interest for anyone.
+My personal fork can be found [here](https://github.com/Wesztman/zmk-config?organization=Wesztman&organization=Wesztman) if it's of interest for anyone (it has automatic picture generation of the layout for the readme #humbleflex)
 
 ## 3D Printed Cases
 
@@ -112,6 +112,7 @@ My personal fork can be found [here](https://github.com/Wesztman/zmk-config?orga
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Wesztman/brain&type=Date" />
  </picture>
 </a>
+
 
 
 
