@@ -39,6 +39,7 @@ The result of this is the Brain, a wireless split keyboard based on the Urchin w
 - [ ] Add back the fourth hole for tenting puck.
 - [ ] Rotate the diode for switch 17, it's reversed now which causes confusion.
 - [ ] Change the reset switch B3U-1000P(M) to regular tactile reset switch such as https://kriscables.com/product/tactile-reset-switch/ since it's a pain to get hold of the original reset switch.
+- [ ] Do a non battery RGB blingbling version? I almost only use my keyboard without battery and a cable like this anyway https://www.amazon.se/dp/B0CYT426GZ?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
 
 ## Part list (for both sides)
 
@@ -110,4 +111,5 @@ My personal fork can be found [here](https://github.com/Wesztman/zmk-config?orga
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Wesztman/brain&type=Date" />
  </picture>
 </a>
+
 
