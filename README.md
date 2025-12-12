@@ -55,12 +55,12 @@ The result of this is the Brain, a wireless split keyboard based on the Urchin w
 - 2× Pair of female mill-max headers (raised ones to fit battery) (https://kriscables.com/product/mill-max-low-profile-sockets/)
 - 2× Lipo battery (301230) (https://kriscables.com/product/li-po-battery-3-7v-110mah/)
   - **OR** 1x split USB-C cable to use the keyboard without batteries (https://www.amazon.se/dp/B0CYT426GZ?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) (this also means you could go with "regular" millmax sockets and not the raised ones)
+- 2x Power switch (MSK 12C02) (https://kriscables.com/product/msk-12c02-power-switch/)
   
 #### Optional
 
 - 2× nice!view (needs higher sockets to get level above raised mill-max sockets, TODO add exact ones) (https://splitkb.com/collections/keyboard-parts/products/nice-view)
 - 2× Reset switch (B3U-1000P(M)) (https://www.digikey.se/sv/products/detail/omron-electronics-inc-emc-div/B3U-1000P/1534338?srsltid=AfmBOop7zspfRjYOQ7LR1wDdW5W1PJkAlY6OWJ5YXfqCBF3_GB-U63jH)
-- 2× Power switch (MSK 12C02) (https://kriscables.com/product/msk-12c02-power-switch/)
 - 16× adhesive silicone feet 8mm (https://www.amazon.se/-/en/Adhesive-Silicone-Semicircle-Transparent-Furniture/dp/B09QSKVBL5)
 
 ## How do I make this?
@@ -112,6 +112,7 @@ My personal fork can be found [here](https://github.com/Wesztman/zmk-config?orga
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Wesztman/brain&type=Date" />
  </picture>
 </a>
+
 
 
 
