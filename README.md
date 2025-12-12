@@ -38,27 +38,28 @@ The result of this is the Brain, a wireless split keyboard based on the Urchin w
 - [ ] Raise last pinky column, maybe as much as 7-8 mm. For easier access to both the keys and not only the top one.
 - [ ] Add back the fourth hole for tenting puck.
 - [ ] Rotate the diode for switch 17, it's reversed now which causes confusion.
+- [ ] Change the reset switch B3U-1000P(M) to regular tactile reset switch such as https://kriscables.com/product/tactile-reset-switch/ since it's a pain to get hold of the original reset switch.
 
 ## Part list (for both sides)
 
 #### Required
 
 - 1× PCB Kit (files for it are in [releases](https://github.com/wesztman/brain/releases))
-- 40× Kailh **CHOC** Hotswap Sockets
-- 40× Kailh Choc v1 Switches
-- 40× Keycaps
-- 40× SMD diodes (SOD-123)
-- 2× nice!nano
-- 2× Lipo battery (301230)
-- 48× mill-max machined pins
-- 2× Pair of female mill-max headers (raised ones to fit battery, https://www.digikey.se/sv/products/detail/mill-max-manufacturing-corp/310-43-112-41-001000/1212186)
+- 40× Kailh **CHOC** Hotswap Sockets (https://splitkb.com/products/kailh-hotswap-sockets?variant=39472161456205)
+- 40× Kailh Choc v1 Switches (https://splitkb.com/collections/switches-and-keycaps/products/kailh-low-profile-choc-switches)
+- 40× Keycaps 1u (https://splitkb.com/collections/switches-and-keycaps/products/blank-mbk-choc-low-profile-keycaps)
+- 40× SMD diodes (SOD-123) (https://splitkb.com/products/smd-diodes?_pos=1&_sid=3cfc3a302&_ss=r)
+- 2× nice!nano (https://splitkb.com/products/nice-nano?_pos=1&_sid=0e4cc26b1&_ss=r)
+- 2× Lipo battery (301230) (https://kriscables.com/product/li-po-battery-3-7v-110mah/)
+- 48× mill-max machined pins (https://kriscables.com/product/mill-max-socket-pins/)
+- 2× Pair of female mill-max headers (raised ones to fit battery) (https://kriscables.com/product/mill-max-low-profile-sockets/)
 
 #### Optional
 
-- 2× nice!view (needs higher sockets to get level above raised mill-max sockets, TODO add exact ones)
-- 2× Reset switch (B3U-1000P(M))
-- 2× Power switch (MSK 12C02)
-- 16× adhesive silicone feet
+- 2× nice!view (needs higher sockets to get level above raised mill-max sockets, TODO add exact ones) (https://splitkb.com/collections/keyboard-parts/products/nice-view)
+- 2× Reset switch (B3U-1000P(M)) (https://www.digikey.se/sv/products/detail/omron-electronics-inc-emc-div/B3U-1000P/1534338?srsltid=AfmBOop7zspfRjYOQ7LR1wDdW5W1PJkAlY6OWJ5YXfqCBF3_GB-U63jH)
+- 2× Power switch (MSK 12C02) (https://kriscables.com/product/msk-12c02-power-switch/)
+- 16× adhesive silicone feet 8mm (https://www.amazon.se/-/en/Adhesive-Silicone-Semicircle-Transparent-Furniture/dp/B09QSKVBL5)
 
 ## How do I make this?
 
@@ -109,3 +110,4 @@ My personal fork can be found [here](https://github.com/Wesztman/zmk-config?orga
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Wesztman/brain&type=Date" />
  </picture>
 </a>
+
